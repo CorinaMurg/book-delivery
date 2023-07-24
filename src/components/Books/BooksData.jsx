@@ -3,7 +3,7 @@
 const books = [
     {
       id: 'b1',
-      name: 'To Kill a Mockingbird',
+      title: 'To Kill a Mockingbird',
       author: 'Harper Lee',
       publish_year: 1960,
       summary: 'The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it.',
@@ -13,7 +13,7 @@ const books = [
     },
     {
       id: 'b2',
-      name: '1984',
+      title: '1984',
       author: 'George Orwell',
       publish_year: 1949,
       summary: 'A dystopian novel set in Airstrip One, formerly Great Britain, a province of the superstate Oceania.',
@@ -23,7 +23,7 @@ const books = [
     },
     {
       id: 'b3',
-      name: 'Pride and Prejudice',
+      title: 'Pride and Prejudice',
       author: 'Jane Austen',
       publish_year: 1813,
       summary: 'The story follows the main character, Elizabeth Bennet, as she deals with issues of manners, upbringing, morality, education, and marriage.',
@@ -33,7 +33,7 @@ const books = [
     },
     {
       id: 'b4',
-      name: 'The Great Gatsby',
+      title: 'The Great Gatsby',
       author: 'F. Scott Fitzgerald',
       publish_year: 1925,
       summary: 'A novel of the Roaring Twenties that shines a spotlight on the empty lives of the US upper class.',
@@ -43,7 +43,7 @@ const books = [
     },
     {
       id: 'b5',
-      name: 'The Catcher in the Rye',
+      title: 'The Catcher in the Rye',
       author: 'J.D. Salinger',
       publish_year: 1951,
       summary: 'A rebellious teenager, Holden Caulfield, navigates his way through the complexities of adolescence.',
@@ -53,7 +53,7 @@ const books = [
     },
     {
       id: 'b6',
-      name: 'Moby Dick',
+      title: 'Moby Dick',
       author: 'Herman Melville',
       publish_year: 1851,
       summary: 'Captain Ahab’s quest for the white whale is a timeless epic—a stirring tragedy of vengeance and obsession.',
@@ -63,7 +63,7 @@ const books = [
     },
     {
       id: 'b7',
-      name: 'War and Peace',
+      title: 'War and Peace',
       author: 'Leo Tolstoy',
       publish_year: 1869,
       summary: 'A complex tale of families in Russia during the Napoleonic Era.',
@@ -73,7 +73,7 @@ const books = [
     },
     {
       id: 'b8',
-      name: 'The Lord of the Rings',
+      title: 'The Lord of the Rings',
       author: 'J.R.R. Tolkien',
       publish_year: 1954,
       summary: 'An epic fantasy trilogy featuring a struggle between good and evil in a mythical world.',
@@ -83,7 +83,7 @@ const books = [
     },
     {
       id: 'b9',
-      name: 'The Alchemist',
+      title: 'The Alchemist',
       author: 'Paulo Coelho',
       publish_year: 1988,
       summary: 'A young Andalusian shepherd in search of a dream and his personal legend.',
@@ -93,7 +93,7 @@ const books = [
     },
     {
       id: 'b10',
-      name: 'Harry Potter and the Philosopher\'s Stone',
+      title: 'Harry Potter and the Philosopher\'s Stone',
       author: 'J.K. Rowling',
       publish_year: 1997,
       summary: 'Harry Potter, a boy who learns on his eleventh birthday that he is the orphaned son of two powerful wizards.',

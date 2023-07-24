@@ -7,9 +7,10 @@ const BookItem = (props) => {
     <li className={classes.book}>
       <div>
         <h3>{props.title}</h3>
-        <div className={classes.description}>{props.description}</div>
+        
         <div className={classes.author}>{props.author}</div>
-        <div className={classes.genre}>{props.author}</div>
+        <div className={classes.genre}>{props.genre}</div>
+        <div className={classes.description}>{props.summary}</div>
       </div>
       <div></div>
     </li>

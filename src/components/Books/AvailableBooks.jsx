@@ -1,5 +1,6 @@
 
 import Card from '../UI/Card';
+import BookItem from './BookItem/BookItem';
 import classes from './AvailableBooks.module.css';
 
 import booksData from './BooksData'
@@ -7,7 +8,16 @@ import booksData from './BooksData'
 
 
 const AvailableBooks = () => {
-  const booksList = booksData.map((book) => <li key={book.id}>{book.title}</li>);
+
+  const booksList = booksData.map((book) => (
+    <BookItem
+      key={book.id}
+      title={book.title}
+      summary={book.summary}
+      author={book.author}
+      genre={book.genre}
+    />
+  ));
 
   return (
     <section className={classes.bookss}>

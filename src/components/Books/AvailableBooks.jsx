@@ -1,5 +1,5 @@
 
-import classes from './AvailableBookss.module.css';
+import classes from './AvailableBooks.module.css';
 
 import booksData from './BooksData'
 

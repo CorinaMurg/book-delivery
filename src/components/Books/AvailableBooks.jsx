@@ -12,6 +12,7 @@ const AvailableBooks = () => {
   const booksList = booksData.map((book) => (
     <BookItem
       key={book.id}
+      id = {book.id}
       title={book.title}
       summary={book.summary}
       author={book.author}

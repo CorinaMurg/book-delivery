@@ -1,9 +1,23 @@
 /* eslint-disable react/prop-types */
+import { useContext } from 'react';
 import BookItemForm from './BookItemForm';
 import classes from './BookItem.module.css';
+import CartContext from '../../../store/cart-context';
 
 const BookItem = (props) => {
-  
+  const cartCtx = useContext(CartContext);
+
+  // const price = `$${props.price.toFixed(2)}`;
+
+  const addToCartHandler = (amount) => {
+    cartCtx.addItem({
+      id: props.id,
+      title: props.title,
+      amount: amount,
+      price: props.price,
+    });
+  };
+
 
   return (
     <li className={classes.book}>
@@ -12,9 +26,10 @@ const BookItem = (props) => {
         <div className={classes.author}>{props.author}</div>
         <div className={classes.genre}>{props.genre}</div>
         <div className={classes.description}>{props.summary}</div>
+        <div className={classes.price}>{props.price}</div>
       </div>
       <div>
-        <BookItemForm id={props.id} />
+        <BookItemForm id={props.id} onAddToCart={addToCartHandler} />
       </div>
     </li>
   );

@@ -14,6 +14,7 @@ const AvailableBooks = () => {
       key={book.id}
       id = {book.id}
       title={book.title}
+      price={book.price}
       summary={book.summary}
       author={book.author}
       genre={book.genre}

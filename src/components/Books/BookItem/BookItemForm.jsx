@@ -27,25 +27,26 @@ const BookItemForm = (props) => {
 
 
   return (
-    <form className={classes.form}>
+    <form className={classes.form} onSubmit={submitHandler}>
        <Input
+        ref={amountInputRef}
         label='Amount'
         input={{
           id: 'amount_' + props.id,
           type: 'number',
           min: '1',
-          max: '5',
+          max: '3',
           step: '1',
           defaultValue: '1',
         }}
       />
       <button>+ Add</button>
+      {!amountIsValid && <p>Please enter a valid amount (1-3).</p>}
     </form>
   );
 };
 
 export default BookItemForm;
-
 
 
 

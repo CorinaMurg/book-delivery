@@ -1,0 +1,16 @@
+
+.summary {
+    width: 30%;
+    background-color: rgb(225, 222, 222);
+    padding: 1rem;
+}
+  
+.summary h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 4rem;
+}
+
+.summary p {
+    font-size: 1.5rem;
+}

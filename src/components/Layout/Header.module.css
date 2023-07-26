@@ -2,28 +2,55 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 90%;
-    height: 5rem;
-    background-color: #8a2b06;
-    color: white;
+    
+    height: 4rem;
+    background-color: rgb(225, 222, 222);
+    color: black;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 0 10%;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    padding: 0 5rem;
     z-index: 10;
-  }
+}
+
+.navbar {
+  margin-top: 4rem;
+  height: 7rem;
+  border-bottom: 1px solid rgb(225, 222, 222);
+}
+
+.nav-links {
+  max-width: 90%;
+  margin-inline: auto;
+  display: flex;
+  padding-block: 2rem;
+  align-items:first baseline;
+  justify-content: space-between;
+  padding-inline: 0;
+}
+
+.nav-links button {
+  background-color: white;
+  border: none;
   
-  .main-image {
-    width: 100%;
-    height: 25rem;
-    z-index: 0;
-    overflow: hidden;
-  }
+}
   
-  .main-image img {
-    width: 110%;
-    height: 100%;
-    object-fit: cover;
-    transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
-  }
+.hero {
+  display: flex;
+  flex-direction: row;
+  max-width: 90%;
+  margin-inline: auto;
+}
+
+.main-image {
+  width: 70%;
+  height: auto;
+  margin-inline: auto;
+  z-index: 0;
+  overflow: hidden;
+}
+  
+.main-image img {
+  width: 100%;
+  object-fit: cover;
+}

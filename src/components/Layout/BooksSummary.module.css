@@ -1,8 +1,9 @@
 
 .summary {
     width: 30%;
-    background-color: rgb(225, 222, 222);
-    padding: 1rem;
+    background-color: var(--clr-light-gray);
+    padding: 3rem;
+    height: auto;
 }
   
 .summary h2 {
@@ -13,4 +14,8 @@
 
 .summary p {
     font-size: 1.5rem;
+}
+
+.summary div {
+    border-bottom: 1px solid rgb(225, 222, 222);
 }

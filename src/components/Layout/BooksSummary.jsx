@@ -1,20 +1,21 @@
 import classes from './BooksSummary.module.css';
-import HeaderCartButton from './HeaderCartButton';
-const BooksSummary = (props) => {
+
+const BooksSummary = () => {
   return (
     <section className={classes.summary}>
       
-        <h2>Directly to Your Door</h2>
+        <h2>TO YOUR DOORSTEP</h2>
         <p>
-          Browse through our extensive collection. 
-          Select your next riveting read.
-          Indulge in the pleasure of literature without leaving your home.
+          Browse our extensive collection. </p>
+          <p>Select your next riveting read.</p>
+         <p> Indulge without leaving your home.
         </p>
+        <div></div>
         <p>
           Promptly delivered by eco-friendly bicycles.
-          Handled with utmost care. Delivered by passionate riders.
+          Handled with utmost care by passionate riders.
         </p>
-        <HeaderCartButton onClick={props.onShowCart}/>
+        
     </section>
   );
 };

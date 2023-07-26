@@ -1,22 +1,33 @@
 .header {
     position: fixed;
     top: 0;
-    left: 0;
-    
-    height: 4rem;
-    background-color: rgb(225, 222, 222);
+    width: 100%;
     color: black;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 5rem;
+    flex-direction: column;
     z-index: 10;
+    
+}
+
+.cart-container {
+  position: relative;
+  display: flex;
+  background-color: var(--clr-light-gray);
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  padding-inline: 5%;
+  z-index: 10;
 }
 
 .navbar {
-  margin-top: 4rem;
-  height: 7rem;
-  border-bottom: 1px solid rgb(225, 222, 222);
+  position: relative;
+  height: 8rem;
+  /* margin-bottom: 2rem; */
+  background-color: white;
+  padding-bottom: 3rem;
+  z-index: 10;
+ 
 }
 
 .nav-links {
@@ -24,7 +35,7 @@
   margin-inline: auto;
   display: flex;
   padding-block: 2rem;
-  align-items:first baseline;
+  align-items:center;
   justify-content: space-between;
   padding-inline: 0;
 }
@@ -36,10 +47,29 @@
 }
   
 .hero {
+  position: relative;
+  margin-top: 12rem;
+  margin-bottom: -0.5rem;
+  border-bottom: 1px solid var(--clr-light-gray);
   display: flex;
   flex-direction: row;
   max-width: 90%;
   margin-inline: auto;
+}
+
+.independent {
+  background-color: pink;
+  width: 100%;
+  height: 4rem;
+  margin-top: -1.5rem;
+  max-width: 90%;
+  margin-inline: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0.5rem;
+  z-index: 5;
 }
 
 .main-image {

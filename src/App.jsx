@@ -19,8 +19,15 @@ function App() {
     <CartProvider> 
       {cartIsShown && <Cart onClose={hideCartHandler} />}
       <Header onShowCart={showCartHandler} />
+
       <main>
-        <Books />
+        <div className="books">
+          <Books />
+        </div>
+        <div className="yellow">
+          <h4>There will be a beautiful paragraph here</h4>
+        </div>
+        
       </main>
     </CartProvider>
 

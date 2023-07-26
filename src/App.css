@@ -1,19 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-light-gray: #f0f0ea;
+  --clr-yellow: #eab92d;
+}
+
 body {
-  /* max-width: 1280px; */
   margin-inline: auto;
 }
 
 #root {
-  /* max-width: 1280px; */
   margin: 0 auto;
-  /* padding: 2rem; */
-  
 }
 
 main {
+  margin-inline: auto;
+  background-color: var(--clr-light-gray);
+}
+
+.books {
   max-width: 50rem;
   margin-inline: auto;
 }
+
+.yellow {
+  background-color: var(--clr-yellow);
+}
+
+
+
+
 
 
 

@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 
 import HeaderCartButton from './HeaderCartButton';
-import headerImage from '../../assets/bookstorefront-shelves.jpg';
+import headerImage from '../../../public/assets/bookstorefront-shelves.jpg';
 import BooksSummary from './BooksSummary';
 import classes from './Header.module.css';
 

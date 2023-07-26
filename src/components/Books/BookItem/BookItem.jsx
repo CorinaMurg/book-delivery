@@ -3,6 +3,7 @@ import { useContext } from 'react';
 import BookItemForm from './BookItemForm';
 import classes from './BookItem.module.css';
 import CartContext from '../../../store/cart-context';
+// import coverImage from '../../../assets/book1.jpg';
 
 const BookItem = (props) => {
   const cartCtx = useContext(CartContext);
@@ -23,6 +24,7 @@ const BookItem = (props) => {
     <li className={classes.book}>
       <div>
         <h3>{props.title}</h3>
+        <img src={props.image} alt={props.title} />
         <div className={classes.author}>{props.author}</div>
         <div className={classes.genre}>{props.genre}</div>
         <div className={classes.description}>{props.summary}</div>

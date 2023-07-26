@@ -16,14 +16,15 @@ body {
 }
 
 main {
+  max-width: 90%;
   margin-inline: auto;
   background-color: var(--clr-light-gray);
 }
 
-.books {
+/* .books {
   max-width: 50rem;
   margin-inline: auto;
-}
+} */
 
 .yellow {
   background-color: var(--clr-yellow);

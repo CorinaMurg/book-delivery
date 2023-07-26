@@ -1,27 +1,27 @@
 
 
-/* books {
+.booksList {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    gap: 34px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
     margin-top: 57px;
-    animation: books-appear 1s ease-out forwards;
-} */
-
-.books {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 34px;
-    margin-top: 57px;
+    list-style: none;
+    padding: 0;
   }
   
-.books ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
+  .bookItem {
+    /* Add any common styling for the book items here */
+  }
+  
+  .card {
+   
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    
+    background-color: pink;
+  }
+  
+  
 @keyframes books-appear {
     from {
         opacity: 0;

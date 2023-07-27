@@ -30,11 +30,16 @@ main {
   display: flex;
 }
 
+
 .yellow {
   background-color: var(--clr-yellow);
   width: 100%;
   padding: 3rem;
   height: 100%;
+}
+
+.bold {
+  font-weight: 400;
 }
 
 

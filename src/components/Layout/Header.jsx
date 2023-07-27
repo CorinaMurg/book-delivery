@@ -3,8 +3,6 @@
 import HeaderCartButton from './HeaderCartButton';
 import headerImage from '/public/assets/frontstore.jpg';
 import bikeImage from '/public/assets/booksonbike.jpg'
-// import headerImage from '/public/assets/bookstorefront-shelves.jpg';
-import BooksSummary from './BooksSummary';
 import classes from './Header.module.css';
 
 const Header = (props) => {
@@ -23,12 +21,18 @@ const Header = (props) => {
         </div>
       </header>
       
-      
       <section className={classes.hero}>
-        <div className={classes['main-image']}>
+        <div className={classes['hero-image']}>
           <img src={headerImage} alt='Twain and Company front with main doors wide open and books on shelves' />
         </div>
-        <BooksSummary />
+        <div className={classes.summary}>
+          <h2>Store Hours</h2>
+          <p>MON - FRI: 7AM - 9PM</p>
+
+          <p>SAT - SUN: 8AM - 7PM</p>
+          <div></div>
+          <p>Browse our extensive collection to select your next riveting read.</p>
+        </div>
       </section>
 
       <div className={classes.independent}>

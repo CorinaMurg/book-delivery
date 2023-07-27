@@ -101,6 +101,7 @@
   padding: 2rem;
   padding-inline: 5%;
   display: flex;
+  align-items: center;
 }
 
 .onbikes h3 {
@@ -114,10 +115,13 @@
 .onbikes-image {
   width: 30rem;
   margin-right: 3rem;
+  display: flex;
+  align-items: center;
 }
 
 .onbikes-image img {
   width: 100%;
+  height: auto;
 }
 
 .delivery-note {

@@ -10,10 +10,18 @@
     padding: 0;
     padding-bottom: 4rem;
     margin-inline: -1rem;
+    animation: books-appear 1s ease-out forwards;
 }
-  
-  
 
+.BooksLoading {
+  text-align: center;
+  color: white;
+}
+
+.BooksError {
+  text-align: center;
+  color: red;
+}
   
 @keyframes books-appear {
     from {

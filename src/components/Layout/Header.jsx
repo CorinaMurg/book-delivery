@@ -22,16 +22,16 @@ const Header = (props) => {
       </header>
       
       <section className={classes.hero}>
-        <div className={classes['hero-image']}>
+        <div className={classes['hero--image']}>
           <img src={headerImage} alt='Twain and Company front with main doors wide open and books on shelves' />
         </div>
-        <div className={classes.summary}>
+        <div className={classes['hero--hours']}>
           <h2>Store Hours</h2>
           <p>MON - FRI: 7AM - 9PM</p>
 
           <p>SAT - SUN: 8AM - 7PM</p>
           <div></div>
-          <p>Browse our extensive collection to select your next riveting read.</p>
+          <p className={classes['hero--hours--blurb']}>Browse our extensive collection to select your next riveting read.</p>
         </div>
       </section>
 

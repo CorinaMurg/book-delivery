@@ -3,24 +3,14 @@
 .booksList {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
+    gap: 3rem;
     margin-top: 57px;
     list-style: none;
     padding: 0;
-  }
+}
   
-  .bookItem {
-    /* Add any common styling for the book items here */
-  }
   
-  .card {
-   
-    padding: 1rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-    
-    background-color: pink;
-  }
-  
+
   
 @keyframes books-appear {
     from {

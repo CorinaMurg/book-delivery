@@ -41,7 +41,7 @@ const BookItemForm = (props) => {
           defaultValue: '1',
         }}
       />
-      <button>+ Add</button>
+      <button>Add to cart</button>
       {!amountIsValid && <p>Please enter a valid amount (1-3).</p>}
     </form>
   );

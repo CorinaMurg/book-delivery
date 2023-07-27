@@ -1,29 +1,45 @@
 .book {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     margin: 1rem;
+    margin-bottom: 7rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #ccc;
+    height: 20rem;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); */
+}
+
+.cover {
+    width: 100%;
+    height: 20rem;  
+    margin-bottom: 1rem; 
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.cover img {
+    max-width: 60%;
+    max-height: auto; 
+    object-fit: contain;  
+    margin-inline: auto;
 }
   
 .book h3 {
     margin: 0 0 0.25rem 0;
+    margin-bottom: 0.5rem;
 }
   
-.description {
-    font-style: italic;
-}
-  
+
 .author {
     margin-top: 0.25rem;
     font-weight: bold;
-    color: #ad5502;
+    color: black;
     font-size: 1.25rem;
 }
 
-.genre {
-    margin-top: 0.25rem;
-    font-weight: bold;
-    color: #ad5502;
-    font-size: 1.25rem;
-}
+
+  

@@ -7,7 +7,7 @@ import booksData from './BooksData'
 const AvailableBooks = () => {
 
   const booksList = booksData.map((book) => (
-    <li key={book.id} className={`${classes.bookItem} ${classes.card}`}>
+    <li key={book.id} className={classes.bookItem}>
       <BookItem
         id={book.id}
         title={book.title}

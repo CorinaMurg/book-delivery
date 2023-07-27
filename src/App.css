@@ -5,6 +5,8 @@
 :root {
   --clr-light-gray: #f0f0ea;
   --clr-yellow: #eab92d;
+  --clr-lightgreen: #17805f;
+  --clr-darkgreen: #224c4b;
 }
 
 body {

@@ -101,17 +101,17 @@ const books = [
       isbn: '978-0062315007',
       price: 21.99
     },
-    {
-      id: 'b10',
-      title: 'Harry Potter and the Philosopher\'s Stone',
-      author: 'J.K. Rowling',
-      year: 1997,
-      summary: 'Harry Potter, a boy who learns on his eleventh birthday that he is the orphaned son of two powerful wizards.',
-      genre: 'Fantasy',
-      image:  '../../assets/book1.jpg',
-      isbn: '978-0747532699',
-      price: 15.99
-    }
+    // {
+    //   id: 'b10',
+    //   title: 'Harry Potter and the Philosopher\'s Stone',
+    //   author: 'J.K. Rowling',
+    //   year: 1997,
+    //   summary: 'Harry Potter, a boy who learns on his eleventh birthday that he is the orphaned son of two powerful wizards.',
+    //   genre: 'Fantasy',
+    //   image:  '../../assets/book1.jpg',
+    //   isbn: '978-0747532699',
+    //   price: 15.99
+    // }
 ];
 
 export default books;

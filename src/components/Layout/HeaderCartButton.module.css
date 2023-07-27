@@ -13,7 +13,7 @@
   
   .button:hover,
   .button:active {
-    background-color: #2c0d00;
+    background-color: var(--clr-lightgreen);
   }
   
   .icon {
@@ -23,15 +23,11 @@
   }
   
   .badge {
-    /* padding: 0.25rem 1rem; */
     border-radius: 25px;
     margin-left: 1rem;
     font-weight: bold;
   }
   
-  .button:hover .badge,
-  .button:active .badge {
-    background-color: #92320c;
-  }
+
   
   

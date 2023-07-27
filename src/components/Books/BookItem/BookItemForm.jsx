@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useRef, useState } from 'react';
 
+
 import Input from '../../UI/Input';
 import classes from './BookItemForm.module.css';
 
@@ -41,7 +42,7 @@ const BookItemForm = (props) => {
           defaultValue: '1',
         }}
       />
-      <button>Add to cart</button>
+      <button>ADD TO CART</button>
       {!amountIsValid && <p>Please enter a valid amount (1-3).</p>}
     </form>
   );

@@ -8,7 +8,7 @@ const books = [
       year: 1960,
       summary: 'The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it.',
       genre: 'Classic Literature',
-      image:  '../../assets/book1.jpg',
+      image:  'https://firebasestorage.googleapis.com/v0/b/book-delivery-245da.appspot.com/o/coverImages%2Fbook4.jpg?alt=media&token=ea55d7c4-0708-43bf-9156-bdc40dcf121c',
       isbn: '978-0446310789',
       price: 9.99,
   

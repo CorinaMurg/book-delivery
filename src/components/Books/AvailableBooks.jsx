@@ -67,7 +67,7 @@ const AvailableBooks = () => {
         title={book.title}
         price={book.price}
         summary={book.summary}
-        author={book.author}
+        author={book.author.toUpperCase()}
         genre={book.genre}
         image={book.image}
         year={book.year}

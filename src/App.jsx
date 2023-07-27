@@ -26,7 +26,7 @@ function App() {
           <Books />
         </div>
       </main>
-      <footer className="footer">
+      <footer className="footer" id="footer-section">
         <div className="yellow">
           <h4>There will be a beautiful paragraph here</h4>
         </div>

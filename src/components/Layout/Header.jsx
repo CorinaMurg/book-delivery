@@ -11,18 +11,11 @@ const Header = (props) => {
     <>
       <header className={classes.header}>
         <div className={classes['cart-container']}>
-          <h1>Welcome!</h1>
+          <p>Right to your doorstep</p>
           <HeaderCartButton onClick={props.onShowCart}/>
         </div>
-        
         <div className={classes.navbar}>
-          <ul className={classes['nav-links']}>
-            <button>Adult Literature</button>
-            <button>Teen Novels</button>
             <h1>BOOKS ON BIKES</h1>
-            <button>Children Books</button>
-            <button>Summer Reads</button>
-          </ul>
         </div>
       </header>
       

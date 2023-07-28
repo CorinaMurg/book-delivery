@@ -31,7 +31,7 @@ const Checkout = (props) => {
     setFormInputsValidity({
       name: enteredNameIsValid,
       street: enteredStreetIsValid,
-      city: enteredPhoneIsValid,
+      phone: enteredPhoneIsValid,
     
     });
 
@@ -44,6 +44,11 @@ const Checkout = (props) => {
       return;
     }
 
+    props.onConfirm({
+      name: enteredName,
+      street: enteredStreet,
+      phone: enteredPhone,
+    });
   };
 
   const nameControlClasses = `${classes.control} ${
@@ -55,7 +60,6 @@ const Checkout = (props) => {
   const phoneControlClasses = `${classes.control} ${
     formInputsValidity.phone ? '' : classes.invalid
   }`;
-
 
 
   return (

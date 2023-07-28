@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-undef */
 
 import HeaderCartButton from './HeaderCartButton';
@@ -9,11 +10,11 @@ const Header = (props) => {
   return (
     <>
       <header className={classes.header}>
-        <div className={classes['cart-container']}>
+        <div className={classes['topper']}>
           <div>
-            <p>For the love of books</p>
+            <p className={classes['topper--slogan']}>For the love of books</p>
           </div>
-          <div className={classes['cart-container--button']}>
+          <div className={classes['topper--cart']}>
             <HeaderCartButton onClick={props.onShowCart}/>
           </div>
           
@@ -22,6 +23,7 @@ const Header = (props) => {
         <div className={classes.navbar}>
           <ul className={classes['nav-links']}>
             <h1>TWAIN & COMPANY</h1>
+            {/* add links for Adult, Children, Teen, Summer Reads */}
           </ul>
         </div>
       </header>

@@ -1,37 +1,35 @@
 .button {
-    cursor: pointer;
-    font: inherit;
-    border: none;
-    background-color: var(--clr-darkgreen);
-    color: white;
-    padding: 0.75rem;
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    font-weight: bold;
-    /* width: 100%; */
-  }
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  /* background-color: var(--clr-darkgreen); */
+  color: black;
+  padding: 0.75rem;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
   
-  .button:hover,
-  .button:active {
-    background-color: var(--clr-lightgreen);
-  }
+.button:hover,
+.button:active {
+  background-color: var(--clr-lightgreen);
+}
   
-  .icon {
-    width: 1.35rem;
-    height: 1.35rem;
-    /* margin-right: 0.5rem; */
-  }
+.icon {
+  width: 2rem;
+  height: 2rem;
+}
   
-  .badge {
-    border-radius: 25px;
-    width: 2rem;
-    height: 2rem;
-    margin-left: 0.5rem;
-    font-weight: bold;
-    background-color: black;
-    padding: 0.5rem;
-  }
+.badge {
+  border-radius: 25px;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.5rem;
+  font-weight: bold;
+  background-color: var(--clr-darkgreen);
+  color: white;
+  padding: 0.5rem;
+}
   
 
   

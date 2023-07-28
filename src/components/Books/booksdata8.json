@@ -1,0 +1,101 @@
+
+{
+    "books":[
+    {
+        "id": "a3",
+        "title": "The Little Prince",
+        "author": "Antoine de Saint-Exupéry",
+        "year": 1943,
+        "summary": "A young prince from another planet explores the universe, learning about the peculiarities of adult behavior through various adventures.",
+        "genre": "Classic Literature",
+        "image": "https://firebasestorage.googleapis.com/v0/b/book-delivery-245da.appspot.com/o/coverImages%2Flittleprince.jpg?alt=media&token=e38d671e-6d76-4482-9471-1d1673879afa",
+        "isbn": "978-1234567890",
+        "price": 5.99,
+        "content": "children"
+    },
+    {
+        "id": "a4",
+        "title": "Don Quixote",
+        "author": "Miguel de Cervantes",
+        "year": 1615,
+        "summary": "The story follows Alonso Quixano who reads so many chivalric romances that he loses his mind and decides to become a knight-errant, roaming in search of adventure.",
+        "genre": "Classic Literature",
+        "image": "https://firebasestorage.googleapis.com/v0/b/book-delivery-245da.appspot.com/o/coverImages%2Fdonquixote.jpg?alt=media&token=a297d18b-2e66-4c86-b337-805b22e67186",
+        "isbn": "978-1234567890",
+        "price": 10.99,
+        "content": "adult"
+    },
+    {
+        "id": "a6",
+        "title": "And Then There Were None",
+        "author": "Agatha Christie",
+        "year": 1939,
+        "summary": "Ten people, each with something to hide and something to fear, are invited to a isolated mansion on Indian Island by a host who, surprisingly, fails to appear.",
+        "genre": "Mystery, Crime",
+        "image": "https://firebasestorage.googleapis.com/v0/b/book-delivery-245da.appspot.com/o/coverImages%2Fandthentherewerenone.jpg?alt=media&token=de8f780e-b6f9-452a-b18c-46b1c7cd83fc",
+        "isbn": "978-1234567890",
+        "price": 9.99,
+        "content": "adult"
+    },
+    {
+        "id": "b2",
+        "title": "The Book of Daniel",
+        "author": "Aaron Smith",
+        "year": 2023,
+        "summary": "An exploration of faith, legacy, and prophecy through a modern lens.",
+        "genre": "Contemporary Poetry",
+        "image": "https://firebasestorage.googleapis.com/v0/b/book-delivery-245da.appspot.com/o/coverImages%2Fbookofdaniel.jpg?alt=media&token=2145110e-c2ad-4e9f-a074-0244753343cd",
+        "isbn": "978-1234567890",
+        "price": 15.99,
+        "content": "adult"
+      },
+      {
+        "id": "b3",
+        "title": "Song of Myself",
+        "author": "Walt Whitman",
+        "year": 1855,
+        "summary": "One of America's most influential poems and it remains an essential part of the American literary tradition.",
+        "genre": "Poetry",
+        "image": "https://firebasestorage.googleapis.com/v0/b/book-delivery-245da.appspot.com/o/coverImages%2Fsongofmyself.jpg?alt=media&token=3120e550-52c2-4453-ae59-0b29503040d6",
+        "isbn": "978-0987654321",
+        "price": 10.99,
+        "content": "adult"
+      },
+      {
+        "id": "b4",
+        "title": "Tom Sawyer",
+        "author": "Mark Twain",
+        "year": 1876,
+        "summary": "The story of a boy's adventures along the Mississippi River, and his encounters with danger and excitement.",
+        "genre": "Classic Literature",
+        "image": "https://firebasestorage.googleapis.com/v0/b/book-delivery-245da.appspot.com/o/coverImages%2Ftomsawyer.jpg?alt=media&token=e074a154-a97a-427b-a25c-841f112ff507",
+        "isbn": "978-1122334455",
+        "price": 8.99,
+        "content": "young adult"
+      },
+      {
+        "id": "b5",
+        "title": "Letters From Earth",
+        "author": "Mark Twain",
+        "year": 1909,
+        "summary": "Posthumous work of celebrated American author Mark Twain, observing the planet Earth from the outsider's perspective of Satan.",
+        "genre": "Classic Literature",
+        "image": "https://firebasestorage.googleapis.com/v0/b/book-delivery-245da.appspot.com/o/coverImages%2Flettersfromearth.jpg?alt=media&token=670ca95c-630c-4b3d-a73d-41cbc260bc66",
+        "isbn": "978-5566778899",
+        "price": 12.99,
+        "content": "adult"
+      },
+      {
+        "id": "b6",
+        "title": "Oliver Twist",
+        "author": "Charles Dickens",
+        "year": 1838,
+        "summary": "The tale of a young orphan boy who endures hardships in early Victorian England.",
+        "genre": "Classic Literature",
+        "image": "https://firebasestorage.googleapis.com/v0/b/book-delivery-245da.appspot.com/o/coverImages%2Folivertwist.jpg?alt=media&token=3c00a362-1909-42ee-98f4-b1c1e7491204",
+        "isbn": "978-2244668800",
+        "price": 14.99,
+        "content": "young adult"
+      }
+    ]
+}

@@ -59,6 +59,13 @@
   }
 }
 
+@media (min-width: 800px) {
+  .navbar {
+    height: 8rem;
+    padding-top: 2rem;
+  }
+}
+
 
 .nav-links {
   width: 100%;
@@ -228,7 +235,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:start;
     padding-top: 0.5rem;
     padding-inline: 3rem;
     margin-top: -1rem;
@@ -237,7 +244,8 @@
   }
 
   .independent h3 {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
   }
 }
 

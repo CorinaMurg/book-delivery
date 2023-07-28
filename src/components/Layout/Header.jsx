@@ -45,15 +45,15 @@ const Header = (props) => {
       </div>
 
       <section className={classes.onbikes}>
-          <div className={classes['onbikes-image']}> 
+          <div className={classes['onbikes--image']}> 
             <img src = {bikeImage} alt="stack of books on the back of a bike" />
           </div>
-          <div>
+          <div className={classes['onbikes--text']}>
             <h3>Books on Bikes</h3>
-            <p>Care to indulge without leaving your home? We offer FREE delivery service by eco-friendly bicycles. Anywhere in Happytown.</p>
+            <p>Care to indulge without leaving your home? We offer FREE delivery service by eco-friendly bicycles. Anywhere in Clemens Town.</p>
             <p>Your books will be handled with utmost care by our passionate riders. Browse below, then add your books to the cart.</p> 
 
-            <p className={classes['delivery-note']}><span className="bold">PLEASE NOTE: </span>We offer same-day delivery for orders placed at least one hour before closing.
+            <p className={classes['onbikes--text-note']}><span className="bold">PLEASE NOTE: </span>We offer same-day delivery for orders placed at least one hour before closing.
             Each order is confirmed by phone before delivery.</p>
           </div>
            

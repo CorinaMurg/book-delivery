@@ -278,18 +278,18 @@
   font-size: 1.3rem;
 }
 
-.onbikes-image {
+.onbikes--image {
   width: 100%;
   display: flex;
   align-items: center;
 }
 
-.onbikes-image img {
+.onbikes--image img {
   width: 100%;
   height: auto;
 }
 
-.delivery-note {
+.onbikes--text-note {
   margin-top: 1rem;
 }
 
@@ -305,27 +305,32 @@
     align-items: center;
   }
   
-  .onbikes h3 {
+  .onbikes--text {
+    padding: 2rem;
+    margin-left: 1rem;
+  }
+
+  .onbikes--text h3 {
     font-size: 1.8rem;
   }
   
-  .onbikes p {
+  .onbikes--text p {
     font-size: 1.3rem;
   }
   
-  .onbikes-image {
+  .onbikes--image {
     width: 30rem;
     margin-right: 3rem;
     display: flex;
     align-items: center;
   }
   
-  .onbikes-image img {
+  .onbikes--image img {
     width: 100%;
     height: auto;
   }
   
-  .delivery-note {
+  .onbikes--text-note {
     margin-top: 3rem;
   }
 

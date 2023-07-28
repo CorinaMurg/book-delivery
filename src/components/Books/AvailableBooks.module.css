@@ -3,7 +3,7 @@
 .booksList {
     /* max-width: 90%; */
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 3rem;
     list-style: none;
     padding: 0;
@@ -12,6 +12,19 @@
     margin-top: -0.05rem;
     margin-inline: -1rem;
     animation: books-appear 1s ease-out forwards;
+}
+
+@media (min-width: 700px) {
+  .booksList {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .booksList {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .BooksLoading {

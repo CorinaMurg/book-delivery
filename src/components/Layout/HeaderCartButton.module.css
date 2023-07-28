@@ -4,11 +4,12 @@
     border: none;
     background-color: var(--clr-darkgreen);
     color: white;
-    padding: 0.75rem 3rem;
+    padding: 0.75rem;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     font-weight: bold;
+    /* width: 100%; */
   }
   
   .button:hover,
@@ -19,13 +20,17 @@
   .icon {
     width: 1.35rem;
     height: 1.35rem;
-    margin-right: 0.5rem;
+    /* margin-right: 0.5rem; */
   }
   
   .badge {
     border-radius: 25px;
-    margin-left: 1rem;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.5rem;
     font-weight: bold;
+    background-color: black;
+    padding: 0.5rem;
   }
   
 

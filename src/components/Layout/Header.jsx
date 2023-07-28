@@ -10,8 +10,13 @@ const Header = (props) => {
     <>
       <header className={classes.header}>
         <div className={classes['cart-container']}>
-          <p>For the love of books</p>
-          <HeaderCartButton onClick={props.onShowCart}/>
+          <div>
+            <p>For the love of books</p>
+          </div>
+          <div className={classes['cart-container--button']}>
+            <HeaderCartButton onClick={props.onShowCart}/>
+          </div>
+          
         </div>
         
         <div className={classes.navbar}>
@@ -31,7 +36,7 @@ const Header = (props) => {
 
           <p>SAT - SUN: 8AM - 7PM</p>
           <div></div>
-          <p className={classes['hero--hours--blurb']}>Browse our extensive collection to select your next riveting read.</p>
+          <p className={classes['hero--hours--blurb']}>Browse our extensive collections and select your next riveting read.</p>
         </div>
       </section>
 

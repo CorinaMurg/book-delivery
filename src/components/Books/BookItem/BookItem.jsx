@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useContext } from 'react';
-import BookItemButton from './BookItemForm';
+import BookItemButton from './BookItemButton';
 import classes from './BookItem.module.css';
 import CartContext from '../../../store/cart-context';
 

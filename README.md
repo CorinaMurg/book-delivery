@@ -4,12 +4,22 @@ This is the first comprehensive React site that I designed and developed after c
 Part 1: General architecture of the site
 1. Desing and develop the front page of the site:
 - header, footer, delivery info, list of books with title, author and price info
-- a modal for the shopping cart with adding/removing books to the cart, checkout form, form validation, saving cart data to Firebase
+- shopping cart feature that allows customers to add books to their cart
+- a modal for the shopping cart with checkout form, form validation, saving cart data to Firebase. It also 
+features buttons for adjusting the quantity for each book. 
 2. Create the Firebase backend:
 - Realtime Database for the json object containing all the books (right now only 8 books are being displayed)
 - Storage for the book covers
-3. Responsiveness
-4. Accessibility
+3. Responsive design
+4. Accessibility features (caveat: not available yet for cart modal)
+5. Deployed to Netlify
+
+Possible Improvements:
+- change font style + letter spacing
+- local storage for cart (until user account feature is added)
+- change style of cart
+- a11y for cart/modal
+- add icon to footer
 
 
 Part 2: Add search + filter features
@@ -20,6 +30,8 @@ Part 2: Add search + filter features
 
 
 Part 3: Add inventory data to Firebase
+1. Alert customers when inventory is low
+2. Display out-of-stock when inventory=0
 
 Part 4: Add Customer account + login
 

@@ -20,6 +20,7 @@ features buttons for adjusting the quantity for each book.
 
 Possible Improvements:
 - change font style + letter spacing
+- change style of header cart button
 - local storage for cart (until user account feature is added)
 - change style of cart
 - a11y for cart/modal

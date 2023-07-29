@@ -15,14 +15,23 @@
   flex-direction: row;
   background-color: var(--clr-light-gray);
   justify-content: space-between;
+  align-items: center;
   height: 4rem;
-  padding-inline: 2rem;
+  padding-left: 2rem;
   z-index: 10;
 }
 
+/* .topper--cart {
+  align-self: center;
+} */
+
 .topper--slogan {
  text-align: left;
+ margin-right: 4rem;
+ font-size: 1.2rem;
+ color: var(--clr-darkgreen);
 }
+
 
 @media (min-width: 500px) {
   .topper {
@@ -34,6 +43,13 @@
     align-items: center;
     height: 4rem;
     z-index: 10;
+  }
+
+  .topper--slogan {
+    font-size: 1.4rem;
+    letter-spacing: 1.2;
+    font-weight: bold;
+    color: var(--clr-darkgreen);
   }
 }
 
@@ -91,12 +107,6 @@
 }
 
 
-.header p {
-  font-size: 1.4rem;
-  letter-spacing: 1.2;
-  font-weight: bold;
-  color: var(--clr-darkgreen);
-}
   
 .hero {
   position: relative;

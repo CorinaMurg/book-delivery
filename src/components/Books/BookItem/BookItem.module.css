@@ -38,6 +38,7 @@
     margin-top: 0.25rem;
     color: var(--clr-darkgreen);
     font-size: 1.2rem;
+    letter-spacing: 1.1;
     margin-bottom: 1.5rem;
 }
 
@@ -103,5 +104,6 @@
 
     .author {
         font-size: 1rem;
+        letter-spacing: 1;
     }
 }

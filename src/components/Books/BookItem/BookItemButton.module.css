@@ -10,9 +10,9 @@
     border: 1px solid var(--clr-darkgreen);
     color: white;
     padding: 0.25rem 2rem;
-    
     font-weight: bold;
     width: 100%;
+    height: 2.3rem;
 }
   
 .form button:hover,

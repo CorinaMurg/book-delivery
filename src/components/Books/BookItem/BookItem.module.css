@@ -31,12 +31,13 @@
 .book h3 {
     margin: 0 0 2rem 0;
     letter-spacing: 1.2;
+    font-size: 1.4rem;
 }
   
 .author {
     margin-top: 0.25rem;
     color: var(--clr-darkgreen);
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 1.5rem;
 }
 
@@ -95,5 +96,12 @@
     }
 }
 
+@media (min-width: 800px) {
+    .book h3 {
+        font-size: 1.4rem;
+    }
 
-  
+    .author {
+        font-size: 1rem;
+    }
+}

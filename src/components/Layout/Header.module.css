@@ -17,7 +17,7 @@
   justify-content: space-between;
   align-items: center;
   height: 4rem;
-  padding-left: 2rem;
+  padding-inline: 2rem;
   z-index: 10;
 }
 

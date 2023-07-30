@@ -35,14 +35,10 @@ POUR MOI
 Things to FIX:
 - Accessibility (INCOMPLETE: in development for cart modal)
 - CSS for non-Chrome browsers
-- Book button: change from add to added! when book in cart
-- Change margin of book list for first row
 - Change bgColor of cover (maybe a glassy look, or 2 lighter shades of gray)
 
 Things to TWEAK:
-- height of Add to Cart button
 - center book list for tablet view (for real, not with the extra left margin!)
-- change font style + letter spacing
 - local storage for cart (until user account feature is added)
 - FOOTER IS BORING. DO SOMETHING ABOUT IT
 - Create OnBikes component

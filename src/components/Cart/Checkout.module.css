@@ -35,7 +35,6 @@
     cursor: pointer;
     background-color: var(--clr-darkgreen);
     border: none;
-    border-radius: 25px;
     padding: 0.5rem 2rem; 
 }
   

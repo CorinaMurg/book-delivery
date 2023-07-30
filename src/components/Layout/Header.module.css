@@ -319,7 +319,7 @@
 
 @media (min-width: 800px) {
   .onbikes {
-    background-color: var(--clr-yellow);
+    background-color: var(--clr-lightgreen);
     width: 100%;
     padding: 2rem;
     padding-inline: 5%;

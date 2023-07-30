@@ -19,21 +19,28 @@ TECHNICAL DETAILS
 
 4. **Event Handling**:  onClick and onSubmit handlers for adding items to the cart or adjusting the quantity of items, confirming the order.
 
-5. **Accessibility Features**: I designed the application to be fully accessible. Please note, accessibility features for the cart modal are under development and will be available soon.
+5. **Responsive Design**: I used Grid layout to create a responsive design.
 
-6. **Responsive Design**: I used Grid layout to create a responsive design.
+6. **CSS Modules**: I like to use local scoping for CSS styles to ensure that styles do not interfere with other components. This way the code is also more maintainable and organized. 
 
-7. **CSS Modules**: I like to use local scoping for CSS styles to ensure that styles do not interfere with other components. This way the code is also more maintainable and organized. 
+7. **BEM Naming Convention**: With my latest projects, I've been converting to the BEM naming convention for CSS classes because it promotes better readability and maintainability of the code.
 
-8. **BEM Naming Convention**: With my latest projects, I've been converting to the BEM naming convention for CSS classes because it promotes better readability and maintainability of the code.
+8. **Deployment**: The application is deployed via Netlify at https://twain-and-company.netlify.app/
 
-9. **Deployment**: The application is deployed via Netlify at https://twain-and-company.netlify.app/
+9. **Accessibility Features**: I designed the application to be fully accessible. Please note, accessibility features for the cart modal are under development and will be available soon.
+
+Lighthouse report
+Color contrast
+Button Focus
+Focus outline
+Error:  <li> elements are not contain within a <ul> element (see AvailableBooks, Books components)
 
 
 
 POUR MOI
 Things to FIX:
 - Accessibility (INCOMPLETE: in development for cart modal)
+- Skip-to-content button
 - CSS for non-Chrome browsers
 - Change bgColor of cover (maybe a glassy look, or 2 lighter shades of gray)
 

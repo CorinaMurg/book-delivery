@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Header from './components/Layout/Header';
 import Footer from './components/Layout/Footer';
 
-import Books from './components/Books/Books';
+import AvailableBooks from './components/Books/AvailableBooks';
 import Cart from './components/Cart/Cart';
 import CartProvider from './store/CartProvider';
 
@@ -24,7 +24,7 @@ function App() {
       <Header onShowCart={showCartHandler} />
       <main>
         <div className="books">
-          <Books />
+          <AvailableBooks />
         </div>
       </main>
       <Footer />

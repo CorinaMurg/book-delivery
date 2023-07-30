@@ -76,6 +76,7 @@ const AvailableBooks = () => {
   ));
 
   return (
+      // Lighthouse error: <li> elements are not contain within a <ul> element
       <ul className={classes.booksList}>{booksList}</ul>
   );
 };

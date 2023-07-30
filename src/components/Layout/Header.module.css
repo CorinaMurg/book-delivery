@@ -63,20 +63,14 @@
   position: relative;
   height: 6rem;
   background-color: white;
-  /* padding-bottom: 1rem; */
   z-index: 10;
 }
 
 .navbar h1{
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 @media (min-width: 500px) {
-  .navbar {
-    padding-bottom: 1rem;
-    padding-top: 2rem;
-  }
-
   .navbar h1{
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -86,7 +80,9 @@
 @media (min-width: 800px) {
   .navbar {
     height: 8rem;
+    padding-bottom: 2rem;
     padding-top: 2rem;
+
   }
 }
 
@@ -110,15 +106,13 @@
     align-items:end;
     justify-content: space-between;
   }
-
-  
 }
 
 
   
 .hero {
   position: relative;
-  margin-top: 8rem;
+  margin-top: 10rem;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -126,7 +120,7 @@
 
 @media (min-width: 500px) {
   .hero {
-    margin-top: 12rem;
+    margin-top: 10rem;
   }
 }
 
@@ -149,7 +143,8 @@
 }
 
 .hero--hours h2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
+  letter-spacing: 1.4;
   margin-bottom: 2rem;
   border-bottom: 1px solid var(--clr-darkgreen);
 }
@@ -162,10 +157,16 @@
 
 .hero--hours div {
   border-bottom: 1px solid var(--clr-darkgreen);
-}
+} 
 
+@media (min-width: 500px) {
+  .hero--hours h2 {
+    font-size: 1.8rem;
+  }
+}
 @media (min-width: 800px) {
   .hero {
+    margin-top: 12rem;
     margin-bottom: -0.5rem;
     display: flex;
     flex-direction: row;
@@ -184,13 +185,12 @@
   
   .hero--hours {
     width: 35%;
-    padding-top: 3rem;
-    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
     height: auto;
   }
   
   .hero--hours h2 {
-    font-size: 2rem;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
   }
@@ -201,6 +201,10 @@
 }
 
 @media (min-width: 1000px) {
+  .hero--hours {
+    padding-top: 2rem;
+  }
+
   .hero--hours h2 {
     margin-block: 0.5rem;
   }
@@ -208,10 +212,10 @@
   .hero--hours p {
     font-size: 1.1rem;
   }
+
   .hero--hours--blurb {
     display: block;
     margin-bottom: 0;
-
   }
 }
 
@@ -227,7 +231,9 @@
 
   .hero--hours {
     width: 30%;
-    padding: 3rem;
+    margin-top: 0;
+    padding-inline: 3rem;
+    padding-top: 2rem; 
   }
 
   .hero--hours p {
@@ -248,7 +254,6 @@
 
 @media (min-width: 800px) {
   .independent {
-    font-size: 1.5rem;
     background-color: white;
     width: 100%;
     display: flex;
@@ -262,6 +267,8 @@
   }
 
   .independent h3 {
+    font-size: 1.6rem;
+    letter-spacing: 1.7;
     margin-bottom: 2rem;
     margin-top: 0.5rem;
   }
@@ -269,7 +276,6 @@
 
 @media (min-width: 1280px) {
   .independent {
-    font-size: 1.5rem;
     max-width: 90%;
     margin-inline: auto;
     padding-inline: 0;

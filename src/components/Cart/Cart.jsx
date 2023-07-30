@@ -87,7 +87,7 @@ const Cart = (props) => {
 
   const didSubmitModalContent = (
     <>
-      <p>Your order was successfully saved! We will call you to confirm delivery within 30 minutes. Thank you for reading with us!</p>
+      <p className={classes.success}>Your order was successfully saved! We will call you to confirm delivery within 30 minutes. Thank you for reading with us!</p>
       <div className={classes.actions}>
       <button className={classes.button} onClick={props.onClose}>
         Close

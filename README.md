@@ -20,14 +20,11 @@ features buttons for adjusting the quantity for each book.
 
 Things to tweak:
 - style modal for mobile
-- hover style for header cart!!!!!!!
 - center book list for tablet view
 - change font style + letter spacing
-- change style of header cart button
 - local storage for cart (until user account feature is added)
 - change style of cart
 - a11y for cart/modal
-- add social icons to footer
 - adjust for longer titles/author name
 - FOOTER IS BORING. DO SOMETHING ABOUT IT
 

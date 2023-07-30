@@ -4,10 +4,15 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 40rem;
+    width: 19rem;
     max-height: 20rem;
-    overflow: auto;
-    
+    overflow: auto;  
+}
+
+@media (min-width: 700px) {
+    .cart-items {
+      width: 33rem;
+    }
 }
 
 .total {
@@ -16,10 +21,12 @@
     align-items: center;
     font-weight: bold;
     font-size: 1.5rem;
-    margin: 1rem 0;
+    margin: 1rem 3rem 1rem 0;
 }
 
 .actions {
+    display: flex;
+    justify-content: space-evenly;
     text-align: right;
 }
 
@@ -48,4 +55,8 @@
 .actions .button {
     background-color: var(--clr-darkgreen);
     color: white;
+}
+
+.success {
+    font-size: 1.2rem;
 }

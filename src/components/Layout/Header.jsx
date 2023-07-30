@@ -35,7 +35,6 @@ const Header = (props) => {
         <div className={classes['hero--hours']}>
           <h2>Store Hours</h2>
           <p>MON - FRI: 7AM - 9PM</p>
-
           <p>SAT - SUN: 8AM - 7PM</p>
           <div></div>
           <p className={classes['hero--hours--blurb']}>Browse our extensive collections and select your next riveting read.</p>

@@ -29,6 +29,10 @@ TECHNICAL DETAILS
 
 9. **Accessibility Features**: I designed the application to be fully accessible. Please note, accessibility features for the cart modal are under development and will be available soon.
 ❌ Access modal via keyoard
+✔️ Aria-live to cart on first read
+❌ Cart update does not trigger aria-live
+❌ Add pronounciation to "read" for onbikes
+
 
 Lighthouse report on a11y
 ✔️ Color contrast

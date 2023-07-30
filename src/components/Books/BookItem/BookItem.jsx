@@ -26,8 +26,8 @@ const BookItem = (props) => {
           <img src={props.image} alt={props.title} />
         </div>
         
-        <h3>{props.title}</h3>
-        <div className={classes.author}>{props.author}</div>
+        <h3 className={classes.ellipsis}>{props.title}</h3>
+        <div className={`${classes.author} ${classes.ellipsis}`}>{props.author}</div>
         
         <div className={classes.price}>{price}</div>
       </div>

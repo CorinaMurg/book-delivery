@@ -34,19 +34,19 @@ For Corina
 Things to FIX:
 - Accessibility (INCOMPLETE: in development for cart modal)
 - Book button: change from add to added! when book in cart
-- adjust for longer titles/author name
 
 Things to TWEAK:
 - center book list for tablet view (for real, not with the extra left margin!)
 - change font style + letter spacing
 - local storage for cart (until user account feature is added)
 - FOOTER IS BORING. DO SOMETHING ABOUT IT
-- Improve responsiveness for onbikes (maybe create its own component)
+- Create OnBikes component
 
 Features to ADD:
 - Search bar
-- Filter book by content, genre, author
+- Filter book by content, genre, author, season, poetry, audio
 - Extend book database to 100
+- Add bookstore events
 - Add book inventory data to Firebase
 - Navigation to each book/author's individual page (cover/photo, description/bio, 
 links to similar books/other books by same author)

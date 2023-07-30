@@ -30,7 +30,7 @@ const Header = (props) => {
       
       <section className={classes.hero}>
         <div className={classes['hero--image']}>
-          <img src={headerImage} alt='Twain and Company front with main doors wide open and books on shelves' />
+          <img src={headerImage} alt='Twain and Company store front with main doors wide open and books on shelves' />
         </div>
         <div className={classes['hero--hours']}>
           <h2>Store Hours</h2>

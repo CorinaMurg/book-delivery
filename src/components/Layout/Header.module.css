@@ -45,9 +45,9 @@
   }
 
   .topper--slogan {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     letter-spacing: 1.2;
-    font-weight: bold;
+    
   }
 }
 
@@ -71,7 +71,8 @@
 
 @media (min-width: 500px) {
   .navbar h1{
-    font-size: 2rem;
+    font-size: 2.2rem;
+    letter-spacing: -1px;
     margin-bottom: 1rem;
   }
 }

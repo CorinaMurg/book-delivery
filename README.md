@@ -34,6 +34,7 @@ TECHNICAL DETAILS
 POUR MOI
 Things to FIX:
 - Accessibility (INCOMPLETE: in development for cart modal)
+- CSS for non-Chrome browsers
 - Book button: change from add to added! when book in cart
 - Change margin of book list for first row
 - Change bgColor of cover (maybe a glassy look, or 2 lighter shades of gray)

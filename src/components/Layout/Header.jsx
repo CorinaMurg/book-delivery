@@ -35,8 +35,8 @@ const Header = (props) => {
         <div className={classes['hero--hours']}>
           <h2>Store Hours</h2>
           
-          <p className={classes['visually-hidden']}>Monday to Friday: 7 AM to 9 PM</p>
-          <p className={classes['visually-hidden']}>Saturday to Sunday: 8 AM to 7 PM</p>
+          <p className={classes['sr-only']}>Monday to Friday: 7 AM to 9 PM</p>
+          <p className={classes['sr-only']}>Saturday to Sunday: 8 AM to 7 PM</p>
           <p aria-hidden={true}>MON - FRI: 7AM - 9PM</p>
           <p aria-hidden={true}>SAT - SUN: 8AM - 7PM</p>
           

@@ -4,7 +4,7 @@ Scrimba's Advanced React course and Packt's React the Complete Guide.
 
 📚 TWAIN AND COMPANY 
 For the love of books.
-30 Samuel Road, Clemens Town  😉
+30 Samuel Road, Clemens Town 😉
 
 A bookstore app built in React. 
 Main goal: learn how to use useReducer to add shopping cart feature
@@ -28,12 +28,16 @@ TECHNICAL DETAILS
 8. **Deployment**: The application is deployed via Netlify at https://twain-and-company.netlify.app/
 
 9. **Accessibility Features**: I designed the application to be fully accessible. Please note, accessibility features for the cart modal are under development and will be available soon.
+❌ Access modal via keyoard
 
-Lighthouse report
-Color contrast
-Button Focus
-Focus outline
-Error:  <li> elements are not contain within a <ul> element (see AvailableBooks, Books components)
+Lighthouse report on a11y
+✔️ Color contrast
+✔️ Button Focus
+✔️ Focus outline
+❌ Error:  <li> elements are not contain within a <ul> element (see AvailableBooks, Books components)
+
+axeDevTools report:
+❌ Missing landmark elements
 
 
 

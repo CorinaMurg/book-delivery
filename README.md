@@ -15,16 +15,13 @@ features buttons for adjusting the quantity for each book.
 - Realtime Database for the json object containing all the books (right now only 8 books are being displayed)
 - Storage for the book covers
 3. Responsive design
-4. Accessibility features (caveat: not available yet for cart modal)
+4. Accessibility features (INCOMPLETE: in development for cart modal)
 5. Deployed to Netlify
 
 Things to tweak:
-- style modal for mobile
 - center book list for tablet view
 - change font style + letter spacing
 - local storage for cart (until user account feature is added)
-- change style of cart
-- a11y for cart/modal
 - adjust for longer titles/author name
 - FOOTER IS BORING. DO SOMETHING ABOUT IT
 

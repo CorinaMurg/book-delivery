@@ -21,7 +21,13 @@
     align-items: center;
     font-weight: bold;
     font-size: 1.5rem;
-    margin: 1rem 3rem 1rem 0;
+    margin: 1rem 0rem 1rem 0;
+}
+
+@media (min-width: 700px) {
+    .total {
+        margin: 1rem 3rem 1rem 0;
+    }
 }
 
 .actions {

@@ -24,6 +24,9 @@
   border-radius: 25px;
   width: 2rem;
   height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-left: 0.5rem;
   font-weight: bold;
   background-color: var(--clr-darkgreen);

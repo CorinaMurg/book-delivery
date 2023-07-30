@@ -17,13 +17,11 @@
   justify-content: space-between;
   align-items: center;
   height: 4rem;
-  padding-inline: 2rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
   z-index: 10;
 }
 
-/* .topper--cart {
-  align-self: center;
-} */
 
 .topper--slogan {
  text-align: left;
@@ -42,6 +40,7 @@
     justify-content: space-between;
     align-items: center;
     height: 4rem;
+    padding-inline: 2rem;
     z-index: 10;
   }
 
@@ -62,16 +61,25 @@
 
 .navbar {
   position: relative;
-  height: 10rem;
+  height: 6rem;
   background-color: white;
-  padding-bottom: 3rem;
+  /* padding-bottom: 1rem; */
   z-index: 10;
+}
+
+.navbar h1{
+  font-size: 1.5rem;
 }
 
 @media (min-width: 500px) {
   .navbar {
-    padding-bottom: 0;
-    padding-top: 4rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+  }
+
+  .navbar h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -86,14 +94,12 @@
 .nav-links {
   width: 100%;
   display: flex;
-  align-items: end;
+  /* align-items: end; */
   justify-content: space-between;
   padding-inline: 2rem;
 }
 
-.navbar h1 {
-  margin-bottom: 1rem;
-}
+
 
 @media (min-width: 800px) {
   .nav-links {
@@ -104,13 +110,15 @@
     align-items:end;
     justify-content: space-between;
   }
+
+  
 }
 
 
   
 .hero {
   position: relative;
-  margin-top: 12rem;
+  margin-top: 8rem;
   display: flex;
   flex-direction: column;
   width: 100%;

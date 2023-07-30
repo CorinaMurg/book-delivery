@@ -1,5 +1,4 @@
 .form {
-    /* text-align: right; */
     margin-bottom: 3rem;
 }
   
@@ -10,14 +9,15 @@
     border: 1px solid var(--clr-darkgreen);
     color: white;
     padding: 0.25rem 2rem;
-    font-weight: bold;
     width: 100%;
-    height: 2.3rem;
+    height: 2.5rem;
 }
   
 .form button:hover,
+.form button:focus,
 .form button:active {
     background-color: var(--clr-lightgreen);
     border-color: var(--clr-lightgreen);
 }
+
 

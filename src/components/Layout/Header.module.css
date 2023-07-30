@@ -57,7 +57,6 @@
   }
 }
 
-
 .navbar {
   position: relative;
   height: 6rem;
@@ -93,6 +92,10 @@
   /* align-items: end; */
   justify-content: space-between;
   padding-inline: 2rem;
+}
+
+.nav-links li {
+  list-style: none;
 }
 
 

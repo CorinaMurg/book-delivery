@@ -22,7 +22,7 @@ const Header = (props) => {
         
         <div className={classes.navbar}>
           <ul className={classes['nav-links']}>
-            <h1>TWAIN & COMPANY</h1>
+            <li><h1>TWAIN & COMPANY</h1></li>
             {/* add links for Adult, Children, Teen, Summer Reads */}
           </ul>
         </div>

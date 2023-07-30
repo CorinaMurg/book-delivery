@@ -30,15 +30,15 @@
   
 .book h3 {
     margin: 0 0 2rem 0;
-    letter-spacing: 1.2;
     font-size: 1.3rem;
+    letter-spacing: 1.2px;
 }
   
 .author {
     margin-top: 0.25rem;
     color: var(--clr-darkgreen);
     font-size: 1.2rem;
-    letter-spacing: 1.1;
+    letter-spacing: 1.1px;
     margin-bottom: 1.5rem;
 }
 
@@ -69,6 +69,16 @@
         object-fit: contain;  
         margin-inline: auto;
     }
+
+    .book h3 {
+        font-size: 1.4rem;
+        letter-spacing: 1.3px;
+    }
+      
+    .author {
+        font-size: 1.2rem;
+        letter-spacing: 1.2px;
+    }
 }
 
 
@@ -96,15 +106,38 @@
         max-width: 60%;
         max-height: auto; 
     }
+
+    .book h3 {
+        font-size: 1.2rem;
+        letter-spacing: 1.1px;
+    }
+      
+    .author {
+        font-size: 1.1rem;
+        letter-spacing: 1.1px;
+    }
 }
 
 @media (min-width: 800px) {
     .book h3 {
         font-size: 1.2rem;
+        letter-spacing: 1.1px;
     }
 
     .author {
         font-size: 1.1rem;
-        letter-spacing: 1;
+        letter-spacing: 1px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .book h3 {
+        font-size: 1.2rem;
+        letter-spacing: 0;
+    }
+
+    .author {
+        font-size: 1rem;
+        letter-spacing: 0;
     }
 }

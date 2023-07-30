@@ -1,11 +1,11 @@
 .header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    z-index: 10;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
 }
 
 .topper {
@@ -13,7 +13,7 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  background-color: var(--clr-light-gray);
+  background-color: var(--clr-lightgray);
   justify-content: space-between;
   align-items: center;
   height: 4rem;
@@ -36,7 +36,6 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    background-color: var(--clr-light-gray);
     justify-content: space-between;
     align-items: center;
     height: 4rem;
@@ -319,7 +318,6 @@
 
 @media (min-width: 800px) {
   .onbikes {
-    background-color: var(--clr-lightgreen);
     width: 100%;
     padding: 2rem;
     padding-inline: 5%;

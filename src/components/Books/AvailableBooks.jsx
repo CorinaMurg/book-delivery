@@ -76,9 +76,7 @@ const AvailableBooks = () => {
   ));
 
   return (
-    <section>
       <ul className={classes.booksList}>{booksList}</ul>
-    </section>
   );
 };
 export default AvailableBooks;

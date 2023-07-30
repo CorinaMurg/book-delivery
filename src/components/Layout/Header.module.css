@@ -27,7 +27,8 @@
  text-align: left;
  /* margin-right: 2rem; */
  font-size: 1.2rem;
- color: var(--clr-darkgreen);
+ font-family: "EB Garamond";
+ color: black;
 }
 
 
@@ -44,10 +45,9 @@
   }
 
   .topper--slogan {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     letter-spacing: 1.2;
     font-weight: bold;
-    color: var(--clr-darkgreen);
   }
 }
 
@@ -336,7 +336,7 @@
   }
   
   .onbikes--text p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   
   .onbikes--image {
@@ -378,7 +378,7 @@
   }
   
   .onbikes--text p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   
   .onbikes--image {

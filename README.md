@@ -4,9 +4,10 @@ Scrimba's Advanced React course and Packt's React the Complete Guide.
 
 📚 TWAIN AND COMPANY 
 For the love of books.
+30 Samuel Road, Clemens Town  😉
 
 A bookstore app built in React. 
-
+Main goal: learn how to use useReducer to add shopping cart feature
 
 TECHNICAL DETAILS
 
@@ -30,12 +31,15 @@ TECHNICAL DETAILS
 
 
 
-For Corina
+POUR MOI
 Things to FIX:
 - Accessibility (INCOMPLETE: in development for cart modal)
 - Book button: change from add to added! when book in cart
+- Change margin of book list for first row
+- Change bgColor of cover (maybe a glassy look, or 2 lighter shades of gray)
 
 Things to TWEAK:
+- height of Add to Cart button
 - center book list for tablet view (for real, not with the extra left margin!)
 - change font style + letter spacing
 - local storage for cart (until user account feature is added)

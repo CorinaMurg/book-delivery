@@ -38,7 +38,7 @@ TECHNICAL DETAILS
 ❌ "read" pronounced as "red" not "reed" (onbikes section)
 
 
-<!-- not sure how to fix yet -->
+<!-- not sure how to fix yet since technically the <li> are inside a <ul>-->
 Lighthouse report:
 ❌ Error:  <li> elements are not contained within a <ul> element (see AvailableBooks, Books components)
 

@@ -38,7 +38,7 @@ Lighthouse report on a11y
 ✔️ Color contrast
 ✔️ Button Focus
 ✔️ Focus outline
-❌ Error:  <li> elements are not contain within a <ul> element (see AvailableBooks, Books components)
+❌ Error:  <li> elements are not contained within a <ul> element (see AvailableBooks, Books components)
 
 axeDevTools report:
 ❌ Missing landmark elements

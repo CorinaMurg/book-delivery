@@ -28,16 +28,17 @@ TECHNICAL DETAILS
 8. **Deployment**: The application is deployed via Netlify at https://twain-and-company.netlify.app/
 
 9. **Accessibility Features**: I designed the application to be fully accessible. Please note, accessibility features for the cart modal are under development and will be available soon.
+✔️ Skip-to-content button
+✔️ Color contrast
+✔️ Button Focus
+✔️ Focus outline
 ❌ Access modal via keyoard
 ✔️ Aria-live to cart on first read
 ❌ Cart update trigger aria-live
 ❌ Add pronounciation to "read" for onbikes
 
 
-Lighthouse report on a11y
-✔️ Color contrast
-✔️ Button Focus
-✔️ Focus outline
+Lighthouse report:
 ❌ Error:  <li> elements are not contained within a <ul> element (see AvailableBooks, Books components)
 
 axeDevTools report:
@@ -46,7 +47,6 @@ axeDevTools report:
 
 **POUR MOI**
 Things to FIX:
-- Skip-to-content button
 - CSS for non-Chrome browsers
 - Change bgColor of cover (maybe a glassy look, or 2 lighter shades of gray)
 

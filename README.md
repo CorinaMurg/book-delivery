@@ -34,7 +34,7 @@ TECHNICAL DETAILS
 ✔️ Focus outline
 ❌ Access modal via keyoard
 ✔️ Aria-live to cart on first read
-❌ Cart update trigger aria-live
+✔️ Cart update trigger aria-live
 ❌ Add pronounciation to "read" for onbikes
 
 

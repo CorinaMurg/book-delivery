@@ -42,7 +42,9 @@ const Header = (props) => {
           <p aria-hidden={true}>SAT - SUN: 8AM - 7PM</p>
           
           <div></div>
-          <p className={classes['hero--hours--blurb']}>Browse our extensive collections and select your next riveting read.</p>
+          <p className={classes['hero--hours--blurb']}>Browse our extensive collections and 
+              {/* NEED TO FIX: "read" pronounced as "red" not "reed" */}
+              select your next riveting read.</p>
         </div>
       </section>
 

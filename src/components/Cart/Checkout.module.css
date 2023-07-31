@@ -39,7 +39,8 @@
 }
   
 .actions button:hover,
-.actions button:active {
+.actions button:active,
+.actions button:focus {
     background-color: var(--clr-lightgreen);
 }
   
@@ -50,7 +51,8 @@
 }
   
 .actions .submit:hover,
-.actions .submit:active {
+.actions .submit:active,
+.actions .submit:focus {
     background-color: var(--clr-lightgreen);
 }
   

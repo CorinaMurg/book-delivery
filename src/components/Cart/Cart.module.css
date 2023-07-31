@@ -47,7 +47,8 @@
 }
 
 .actions button:hover,
-.actions button:active {
+.actions button:active,
+.actions button:focus {
     background-color: var(--clr-lightgreen);
     border-color: var(--clr-lightgreen);
     color: white;

@@ -30,7 +30,7 @@ TECHNICAL DETAILS
 9. **Accessibility Features**: I designed the application to be fully accessible. Please note, accessibility features for the cart modal are under development and will be available soon.
 ❌ Access modal via keyoard
 ✔️ Aria-live to cart on first read
-❌ Cart update does not trigger aria-live
+❌ Cart update trigger aria-live
 ❌ Add pronounciation to "read" for onbikes
 
 
@@ -44,21 +44,19 @@ axeDevTools report:
 ❌ Missing landmark elements
 
 
-
-POUR MOI
+**POUR MOI**
 Things to FIX:
-- Accessibility (INCOMPLETE: in development for cart modal)
 - Skip-to-content button
 - CSS for non-Chrome browsers
 - Change bgColor of cover (maybe a glassy look, or 2 lighter shades of gray)
 
-Things to TWEAK:
+**Things to TWEAK:**
 - center book list for tablet view (for real, not with the extra left margin!)
 - local storage for cart (until user account feature is added)
 - FOOTER IS BORING. DO SOMETHING ABOUT IT
 - Create OnBikes component
 
-Features to ADD:
+**Thinking about adding the following features:**
 - Search bar
 - Filter book by content, genre, author, season, poetry, audio
 - Extend book database to 100

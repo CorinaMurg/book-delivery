@@ -13,7 +13,7 @@ const HeaderCartButton = (props) => {
     return curNumber + item.amount;
   }, 0);
 
-  // <div aria-live="polite" className="visually-hidden">{tenzies ? "Congratulatio" : ""}</div>
+  
   return (
     <div aria-live="polite">
       <button role="button" className={classes.button} onClick={props.onClick} aria-label="Shopping cart">
@@ -22,9 +22,10 @@ const HeaderCartButton = (props) => {
         </span>
         <span className={classes.badge} aria-hidden={true}>{numberOfCartItems}</span>
         <span className={classes['sr-only']} aria-live="polite">
-          You have {numberOfCartItems} items in your cart.
+          You have {numberOfCartItems} {numberOfCartItems === 1 ? "item" : "items"} in your cart.
         </span>
       </button>
+      
     </div>
   );
 

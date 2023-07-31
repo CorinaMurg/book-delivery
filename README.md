@@ -48,6 +48,7 @@ axeDevTools report:
 
 **POUR MOI**
 Things to FIX:
+- Remove bg on mouse focus for Header cart button (in Firefox)
 - Create OnBikes component (Header is getting too big!)
 - Change bgColor of cover (maybe a glassy look, or 2 lighter shades of gray)
 

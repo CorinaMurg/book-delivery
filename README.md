@@ -27,7 +27,7 @@ TECHNICAL DETAILS
 
 8. **Deployment**: The application is deployed via Netlify at https://twain-and-company.netlify.app/
 
-9. **Accessibility Features**: I designed the application to be fully accessible. Please note, accessibility features for the cart modal are under development and will be available soon.
+9. **Accessibility Features**: I designed the application to be fully accessible. This is the status of the main accessibility features (working to fix those in red).
 ✔️ Skip-to-content button
 ✔️ Color contrast
 ✔️ Button Focus
@@ -38,6 +38,7 @@ TECHNICAL DETAILS
 ❌ Add pronounciation to "read" for onbikes
 
 
+<!-- not sure how to fix yet -->
 Lighthouse report:
 ❌ Error:  <li> elements are not contained within a <ul> element (see AvailableBooks, Books components)
 
@@ -47,14 +48,13 @@ axeDevTools report:
 
 **POUR MOI**
 Things to FIX:
-- CSS for non-Chrome browsers
+- Create OnBikes component (Header is getting too big!)
 - Change bgColor of cover (maybe a glassy look, or 2 lighter shades of gray)
 
 **Things to TWEAK:**
 - center book list for tablet view (for real, not with the extra left margin!)
 - local storage for cart (until user account feature is added)
 - FOOTER IS BORING. DO SOMETHING ABOUT IT
-- Create OnBikes component
 
 **Thinking about adding the following features:**
 - Search bar

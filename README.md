@@ -35,7 +35,7 @@ TECHNICAL DETAILS
 ❌ Access modal via keyoard
 ✔️ Aria-live to cart on first read
 ✔️ Cart update trigger aria-live
-❌ Add pronounciation to "read" for onbikes
+❌ "read" pronounced as "red" not "reed" (onbikes section)
 
 
 <!-- not sure how to fix yet -->

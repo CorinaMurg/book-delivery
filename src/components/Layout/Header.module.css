@@ -370,6 +370,7 @@
 
 
 @media (min-width: 1280px) {  
+
   .onbikes--text {
     padding: 2rem;
     margin-left: 1rem;
@@ -382,11 +383,6 @@
   .onbikes--text p {
     font-size: 1.1rem;
   }
-  
-  /* .onbikes--text-note {
-    margin-top: 3rem;
-  } */
-
 }
 
 .sr-only {

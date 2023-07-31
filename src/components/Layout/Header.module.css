@@ -1,3 +1,22 @@
+.skip-to-content {
+  position: absolute;
+  z-index: 9999;
+  background-color: var(--clr-yellow);
+  color: black; 
+  font-weight: 600;
+  padding: .5em 1em;
+  margin-inline: auto;
+  text-transform: uppercase;
+  text-decoration: none;
+  transform: translateY(-100%);
+  transition: transform 250ms ease-in;
+}
+
+.skip-to-content:focus {
+  transform: translate(50%, 200%);
+}
+
+
 .header {
   position: fixed;
   top: 0;

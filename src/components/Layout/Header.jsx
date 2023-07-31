@@ -10,6 +10,7 @@ const Header = (props) => {
   return (
     <>
       <header className={classes.header}>
+      <a className={classes['skip-to-content']} href="#main">Skip to content</a>
         <div className={classes['topper']}>
           <div>
             <p className={classes['topper--slogan']}>For the love of books.</p>

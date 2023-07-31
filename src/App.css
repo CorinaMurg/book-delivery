@@ -29,6 +29,7 @@ main {
   font-weight: 400;
 }
 
+
 @media (prefers-reduced-motion: reduce) {  
   *,
   *::before,

@@ -3,8 +3,8 @@ This is the first comprehensive React site that I designed and developed after c
 Scrimba's Advanced React course and Packt's React the Complete Guide.
 
 📚 TWAIN AND COMPANY 
-For the love of books.
-30 Samuel Road, Clemens Town 😉
+<br>For the love of books.
+<br>30 Samuel Road, Clemens Town 😉
 
 A bookstore app built in React. 
 Main goal: learn how to use useReducer to add shopping cart feature
@@ -29,22 +29,22 @@ TECHNICAL DETAILS
 
 9. **Accessibility Features**: I designed the application to be fully accessible. This is the status of the main accessibility features (working to fix those in red).
 [items marked in red are being addressed in the ally branch]
-✔️ Skip-to-content button
-✔️ Color contrast
-✔️ Button Focus
-✔️ Focus outline
-❌ Access modal via keyoard
-✔️ Aria-live to cart on first read
-✔️ Cart update trigger aria-live
-❌ "read" pronounced as "red" not "reed" (onbikes section)
+<br>✔️ Skip-to-content button
+<br>✔️ Color contrast
+<br>✔️ Button Focus
+<br>✔️ Focus outline
+<br>❌ Access modal via keyoard
+<br>✔️ Aria-live to cart on first read
+<br>✔️ Cart update trigger aria-live
+<br>❌ "read" pronounced as "red" not "reed" (onbikes section)
 
 
-<!-- not sure how to fix yet since technically the <li> are inside a <ul>-->
-Lighthouse report:
-❌ Error:  <li> elements are not contained within a <ul> element (see AvailableBooks, Books components)
+<br><!-- not sure how to fix yet since technically the <li> are inside a <ul>-->
+<br>Lighthouse report:
+<br>❌ Error: li elements are not contained within a ul element (see AvailableBooks, Books components)
 
-axeDevTools report:
-❌ Missing landmark elements
+<br>axeDevTools report:
+<br>❌ Missing landmark elements
 
 
 **POUR MOI**

@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { useContext, useState } from 'react';
+import { useContext, useState, useEffect, useRef } from 'react';
 import Modal from '../UI/Modal';
 import classes from './Cart.module.css';
 import CartContext from '../../store/cart-context';
@@ -7,6 +7,14 @@ import CartItem from './CartItem';
 import Checkout from './Checkout';
 
 const Cart = (props) => {
+  const modalRef = useRef(null);
+
+  useEffect(() => {
+    if (setIsCheckout) {
+      modalRef.current.focus();
+    }
+  }, []);
+
   const [isCheckout, setIsCheckout] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [didSubmit, setDidSubmit] = useState(false);
@@ -97,7 +105,7 @@ const Cart = (props) => {
   );
 
   return (
-    <Modal onClose={props.onClose}>
+    <Modal ref={modalRef} onClose={props.onClose}>
       {!isSubmitting && !didSubmit && cartModalContent}
       {isSubmitting && isSubmittingModalContent}
       {!isSubmitting && didSubmit && didSubmitModalContent}
@@ -106,4 +114,3 @@ const Cart = (props) => {
 };
 
 export default Cart;
-

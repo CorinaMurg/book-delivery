@@ -28,6 +28,7 @@ TECHNICAL DETAILS
 8. **Deployment**: The application is deployed via Netlify at https://twain-and-company.netlify.app/
 
 9. **Accessibility Features**: I designed the application to be fully accessible. This is the status of the main accessibility features (working to fix those in red).
+[items marked in red are being addressed in the ally branch]
 ✔️ Skip-to-content button
 ✔️ Color contrast
 ✔️ Button Focus

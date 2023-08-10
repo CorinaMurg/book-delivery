@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Book from './Book/Book';
 import classes from './Books.module.css';
 
-const AvailableBooks = () => {
+const Books = () => {
   const [books, setBooks] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [httpError, setHttpError] = useState();
@@ -80,7 +80,7 @@ const AvailableBooks = () => {
       <ul className={classes.booksList}>{booksList}</ul>
   );
 };
-export default AvailableBooks;
+export default Books;
 
 
 

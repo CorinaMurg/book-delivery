@@ -2,8 +2,8 @@
 /* eslint-disable no-undef */
 
 import HeaderCartButton from './HeaderCartButton';
-import headerImage from '/public/assets/frontstore.jpg';
-import bikeImage from '/public/assets/booksonbike.jpg'
+import headerImage from '../../assets/frontstore.jpg';
+import bikeImage from '../../assets/booksonbike.jpg'
 import classes from './Header.module.css';
 
 const Header = (props) => {
@@ -42,9 +42,9 @@ const Header = (props) => {
           <p aria-hidden={true}>SAT - SUN: 8AM - 7PM</p>
           
           <div></div>
-          <p className={classes['hero--hours--blurb']}>Browse our extensive collections and 
+          <p className={classes['hero--hours--blurb']}>Browse our extensive collections and select your next riveting read.</p>
               {/* NEED TO FIX: "read" pronounced as "red" not "reed" */}
-              select your next riveting read.</p>
+              
         </div>
       </section>
 

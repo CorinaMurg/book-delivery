@@ -11,7 +11,7 @@
     /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); */
 }
 
-.cover {
+.book__cover {
     width: 100%;
     height: 30rem;
     background-color: rgb(189, 187, 187);
@@ -21,7 +21,7 @@
     justify-content: center;
 }
 
-.cover img {
+.book__cover img {
     max-height: 70%; 
     width: auto;
     object-fit: contain;  
@@ -41,7 +41,7 @@
 }
   
   
-.author {
+.book__author {
     margin-top: 0.25rem;
     color: black;
     font-size: 1.2rem;
@@ -49,7 +49,7 @@
     margin-bottom: 1.5rem;
 }
 
-.price {
+.book__price {
     font-weight: bold;
     margin-bottom: 1.1rem;
     letter-spacing: 2px;
@@ -64,14 +64,14 @@
         height: 40rem;
     }
     
-    .cover {
+    .book__cover {
         width: 100%;
         height: 30rem;
         margin-inline: auto;
         margin-bottom: 1rem; 
     }
     
-    .cover img {
+    .book__cover img {
         max-height: 90%; 
         width: auto;
         object-fit: contain;  
@@ -83,7 +83,7 @@
         letter-spacing: 1.3px;
     }
       
-    .author {
+    .book__author {
         font-size: 1.2rem;
         letter-spacing: 1.2px;
     }
@@ -104,13 +104,13 @@
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     }
     
-    .cover {
+    .book__cover {
         width: 100%;
         height: 20rem;  
         margin-bottom: 1rem; 
     }
     
-    .cover img {
+    .book__cover img {
         max-width: 60%;
         max-height: auto; 
     }
@@ -120,7 +120,7 @@
         letter-spacing: 1.1px;
     }
       
-    .author {
+    .book__author {
         font-size: 1.1rem;
         letter-spacing: 1.1px;
     }
@@ -132,7 +132,7 @@
         letter-spacing: 1.1px;
     }
 
-    .author {
+    .book__author {
         font-size: 1.1rem;
         letter-spacing: 1px;
     }
@@ -144,7 +144,7 @@
         letter-spacing: 0px;
     }
 
-    .author {
+    .book__author {
         font-size: 1rem;
         letter-spacing: 0px;
     }

@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 import { useContext } from 'react';
-import BookItemButton from './BookItemButton';
-import classes from './BookItem.module.css';
+import BookItemButton from './BookButton';
+import classes from './Book.module.css';
 import CartContext from '../../../store/cart-context';
 
-const BookItem = (props) => {
+const Book = (props) => {
   const cartCtx = useContext(CartContext);
 
   const price = `$${props.price}`;
@@ -38,7 +38,7 @@ const BookItem = (props) => {
   );
 };
 
-export default BookItem;
+export default Book;
 
 
 

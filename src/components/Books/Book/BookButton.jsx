@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 
 import { useContext } from 'react';
-import classes from './BookItemButton.module.css';
+import classes from './BookButton.module.css';
 import CartContext from '../../../store/cart-context';
 
-const BookItemButton = (props) => {
+const BookButton = (props) => {
   const cartCtx = useContext(CartContext);
   const { id } = props;
 
@@ -24,7 +24,7 @@ const BookItemButton = (props) => {
   );
 };
 
-export default BookItemButton;
+export default BookButton;
 
 
 

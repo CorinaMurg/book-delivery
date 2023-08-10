@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import BookItem from './BookItem/BookItem';
+import Book from './Book/Book';
 import classes from './Books.module.css';
 
 const AvailableBooks = () => {
@@ -62,7 +62,7 @@ const AvailableBooks = () => {
 
   const booksList = books.map((book) => (
     <li key={book.id} className={classes.bookItem}>
-      <BookItem
+      <Book
         id={book.id}
         title={book.title}
         price={book.price}

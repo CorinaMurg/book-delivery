@@ -61,8 +61,8 @@ const Books = () => {
   }
 
   const booksList = books.map((book) => (
-    <li key={book.id} className={classes.bookItem}>
       <Book
+        key={book.id} 
         id={book.id}
         title={book.title}
         price={book.price}
@@ -72,11 +72,9 @@ const Books = () => {
         image={book.image}
         year={book.year}
       />
-    </li>
   ));
 
   return (
-      // Lighthouse error: <li> elements are not contain within a <ul> element
       <ul className={classes.booksList}>{booksList}</ul>
   );
 };

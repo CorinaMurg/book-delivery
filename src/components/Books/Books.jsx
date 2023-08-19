@@ -74,7 +74,6 @@ const Books = () => {
       />
   ));
 
-
   return (
       <ul className={classes.booksList}>{booksList}</ul>
   );

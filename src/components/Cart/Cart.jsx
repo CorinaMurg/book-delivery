@@ -96,6 +96,7 @@ const Cart = (props) => {
     </>
   );
 
+
   return (
     <Modal onClose={props.onClose}>
       {!isSubmitting && !didSubmit && cartModalContent}

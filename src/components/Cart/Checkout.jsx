@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import { useRef, useState } from 'react';
-
 import classes from './Checkout.module.css';
 
 const isEmpty = (value) => value.trim() === '';

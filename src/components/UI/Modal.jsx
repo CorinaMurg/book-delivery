@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import {useEffect} from 'react';
 import ReactDOM from 'react-dom';
 import classes from './Modal.module.css';
 
@@ -18,6 +19,13 @@ const ModalOverlay = (props) => {
 const portalElement = document.getElementById('overlays');
 
 const Modal = (props) => {
+  // useEffect(() => {
+  //   const modalElement = document.querySelector('.your-modal-class');
+  //   if (modalElement) {
+  //     modalElement.focus();
+  //   }
+  // }, []);
+
   return (
     <>
       {ReactDOM.createPortal(<Backdrop onClose={props.onClose}/>, portalElement)}

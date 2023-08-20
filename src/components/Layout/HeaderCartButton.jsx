@@ -3,7 +3,7 @@
 import { useContext } from 'react';
 import CartIcon from '../Cart/CartIcon';
 import classes from './HeaderCartButton.module.css';
-import CartContext from '../../store/cart-context';
+import CartContext from '../../store/CartContext';
 
 const HeaderCartButton = (props) => {
 

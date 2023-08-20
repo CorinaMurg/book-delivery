@@ -2,7 +2,7 @@
 
 import { useContext } from 'react';
 import classes from './BookButton.module.css';
-import CartContext from '../../../store/cart-context';
+import CartContext from '../../../store/CartContext';
 
 const BookButton = (props) => {
   const cartCtx = useContext(CartContext);

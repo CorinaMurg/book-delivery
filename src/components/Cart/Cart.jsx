@@ -2,7 +2,7 @@
 import { useContext, useState, useEffect, useRef } from 'react';
 import Modal from '../UI/Modal';
 import classes from './Cart.module.css';
-import CartContext from '../../store/cart-context';
+import CartContext from '../../store/CartContext';
 import CartItem from './CartItem';
 import Checkout from './Checkout';
 
@@ -31,8 +31,6 @@ const Cart = (props) => {
     }
   }, [hasItems]);
 
-  // q: where in the code is there a function that closes the modal when the user clicks outside of it?
-  // a: in src\components\UI\Modal.jsx, the Backdrop component has an onClick prop that calls props.onClose
 
   // exit modal when pressing ESC
   useEffect(() => {

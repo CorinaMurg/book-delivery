@@ -1,12 +1,15 @@
 /* eslint-disable react/prop-types */
-import { useContext, useState } from 'react';
+import { useContext, useState, useEffect, useRef } from 'react';
 import Modal from '../UI/Modal';
 import classes from './Cart.module.css';
-import CartContext from '../../store/cart-context';
+import CartContext from '../../store/CartContext';
 import CartItem from './CartItem';
 import Checkout from './Checkout';
 
 const Cart = (props) => {
+  const firstCartItemRef = useRef(null);
+  const closeCartButtonRef = useRef(null);
+
   const [isCheckout, setIsCheckout] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [didSubmit, setDidSubmit] = useState(false);
@@ -14,6 +17,36 @@ const Cart = (props) => {
 
   const totalAmount = `$${cartCtx.totalAmount.toFixed(2)}`;
   const hasItems = cartCtx.items.length > 0;
+
+  
+  useEffect(() => {
+    console.log('useEffect triggered');
+    console.log('firstCartItemRef', firstCartItemRef.current);
+    console.log('closeCartButtonRef', closeCartButtonRef.current);
+    
+    if (hasItems && firstCartItemRef.current) {
+        firstCartItemRef.current.focus();
+    } else if (!hasItems && closeCartButtonRef.current) {
+        closeCartButtonRef.current.focus();
+    }
+  }, [hasItems]);
+
+
+  // exit modal when pressing ESC
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.key === 'Escape') {
+        props.onClose();
+      }
+    };
+  
+    window.addEventListener('keydown', handleKeyDown);
+  
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [props]);
+  
 
   const cartItemRemoveHandler = (id) => {
     cartCtx.removeItem(id);
@@ -43,9 +76,10 @@ const Cart = (props) => {
 
   const cartItems = (
     <ul className={classes['cart-items']}>
-      {cartCtx.items.map((item) => (
+      {cartCtx.items.map((item, index) => (
         <CartItem
           key={item.id}
+          ref={index === 0 ? firstCartItemRef : null} // Pass the ref to the first item
           title={item.title}
           amount={item.amount}
           price={item.price}
@@ -58,7 +92,7 @@ const Cart = (props) => {
 
   const modalActions = (
     <div className={classes.actions}>
-      <button className={classes['button--alt']} onClick={props.onClose}>
+      <button ref={closeCartButtonRef} className={classes['button--alt']} onClick={props.onClose}>
         CLOSE
       </button>
       {hasItems && (

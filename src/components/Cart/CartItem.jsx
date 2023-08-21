@@ -1,12 +1,12 @@
+/* eslint-disable react/display-name */
 /* eslint-disable react/prop-types */
 
+import { forwardRef } from 'react';
 import classes from './CartItem.module.css';
 
-const CartItem = (props) => {
-
+const CartItem = forwardRef((props, ref) => {
     const price = `$${props.price}`;
 
-   
     return (
         <li className={classes['cart-item']}>
             <div>
@@ -17,11 +17,11 @@ const CartItem = (props) => {
                 </div>
             </div>
             <div className={classes.actions}>
-                <button onClick={props.onRemove}>−</button>
+                <button ref={ref} onClick={props.onRemove}>−</button>
                 <button onClick={props.onAdd}>+</button>
             </div>
         </li>
     );
-};
+});
 
 export default CartItem;

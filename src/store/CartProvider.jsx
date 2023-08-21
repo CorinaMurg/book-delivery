@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 // from React Complete Guide
-import { useReducer } from 'react';
 
-import CartContext from './cart-context';
+import { useReducer } from 'react';
+import CartContext from './CartContext';
 
 const defaultCartState = {
     items: [],
@@ -67,6 +67,8 @@ const cartReducer = (state, action) => {
   return defaultCartState;
 };
 
+
+// useReducer
 const CartProvider = (props) => {
   const [cartState, dispatchCartAction] = useReducer(
     cartReducer,
@@ -85,6 +87,7 @@ const CartProvider = (props) => {
     dispatchCartAction({type: 'CLEAR'});
   };
 
+  
   const cartContext = {
     items: cartState.items,
     totalAmount: cartState.totalAmount,

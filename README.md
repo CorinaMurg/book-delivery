@@ -6,6 +6,8 @@ Scrimba's Advanced React course and Packt's React the Complete Guide.
 <br>For the love of books.
 <br>30 Samuel Road, Clemens Town 😉
 
+Live: [TWAIN & COMPANY](https://twain-and-company.netlify.app/)
+
 A bookstore app built in React. 
 Main goal: learn how to use useReducer to add shopping cart feature
 
@@ -33,23 +35,14 @@ TECHNICAL DETAILS
 <br>✔️ Color contrast
 <br>✔️ Button Focus
 <br>✔️ Focus outline
-<br>❌ Access modal via keyoard
+<br>✔️ Access modal via keyoard
 <br>✔️ Aria-live to cart on first read
 <br>✔️ Cart update trigger aria-live
 <br>❌ "read" pronounced as "red" not "reed" (onbikes section)
 
 
-<br><!-- not sure how to fix yet since technically the <li> are inside a <ul>-->
-<br>Lighthouse report:
-<br>❌ Error: li elements are not contained within a ul element (see AvailableBooks, Books components)
-
-<br>axeDevTools report:
-<br>❌ Missing landmark elements
-
-
 **POUR MOI**
 Things to FIX:
-- Remove bg on mouse focus for Header cart button (in Firefox)
 - Create OnBikes component (Header is getting too big!)
 - Change bgColor of cover (maybe a glassy look, or 2 lighter shades of gray)
 

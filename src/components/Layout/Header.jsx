@@ -49,7 +49,7 @@ const Header = (props) => {
           
           <div></div>
           <p className={classes['hero--hours--blurb']}>Browse our extensive collections and select your next riveting read.</p>
-              {/* NEED TO FIX: "read" pronounced as "red" not "reed" */}
+              {/* NEED TO FIX: "read" pronounced as "red" not "reed" | Use aria-label ????*/}
               
         </div>
       </section>

@@ -2,7 +2,7 @@
 import { useContext, useState, useEffect, useRef } from 'react';
 import Modal from '../UI/Modal';
 import classes from './Cart.module.css';
-import {CartContext} from '../../store/CartProvid';
+import {CartContext} from '../../store/CartProvider';
 import CartItem from './CartItem';
 import Checkout from './Checkout';
 
@@ -62,13 +62,18 @@ const Cart = (props) => {
 
   const submitOrderHandler = async (userData) => {
     setIsSubmitting(true);
-    await fetch('https://book-delivery-245da-default-rtdb.firebaseio.com/orders.json', {
-      method: 'POST',
-      body: JSON.stringify({
-        user: userData,
-        orderedItems: cartCtx.items
-      })
-    });
+    try {
+      await fetch('https://book-delivery-245da-default-rtdb.firebaseio.com/orders.json', {
+        method: 'POST',
+        body: JSON.stringify({
+          user: userData,
+          orderedItems: cartCtx.items
+        })
+      });
+    }
+    catch (error) {
+      <p>Order did not save</p>
+    }
     setIsSubmitting(false);
     setDidSubmit(true);
     cartCtx.clearCart();

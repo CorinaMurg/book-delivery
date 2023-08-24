@@ -2,14 +2,14 @@
 
 import { useContext } from 'react';
 import classes from './BookButton.module.css';
-import {CartContext} from '../../../store/CartProvid';
+import {CartContext} from '../../../store/CartProvider';
 
 const BookButton = (props) => {
   const cartCtx = useContext(CartContext);
-  const { id } = props;
+  
 
   // Check if the current book is already in the cart
-  const isInCart = cartCtx.items.some(item => item.id === id);
+  const isInCart = cartCtx.items.some(item => item.id === props.id);
 
   const submitHandler = (event) => {
     event.preventDefault();

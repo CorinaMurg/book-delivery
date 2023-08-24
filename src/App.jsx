@@ -4,7 +4,7 @@ import Footer from './components/Layout/Footer';
 
 import Books from './components/Books/Books';
 import Cart from './components/Cart/Cart';
-import CartProvider from './store/CartProvid';
+import CartProvider from './store/CartProvider';
 
 
 function App() {

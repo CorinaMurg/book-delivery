@@ -22,14 +22,14 @@
     max-width: 100%;
 }
   
-.actions {
+.checkoutButtons {
     display: flex;
     justify-content: space-evenly;
     margin-top: 1rem;
     gap: 1rem;
 }
   
-.actions button {
+.checkoutButtons button {
     font: inherit;
     color: white;
     cursor: pointer;
@@ -38,21 +38,21 @@
     padding: 0.5rem 2rem; 
 }
   
-.actions button:hover,
-.actions button:active,
-.actions button:focus {
+.checkoutButtons button:hover,
+.checkoutButtons button:active,
+.checkoutButtons button:focus {
     background-color: var(--clr-lightgreen);
 }
   
-.actions .submit {
+.checkoutButtons .submit {
     border: 1px solid var(--clr-darkgreen);
     background-color: var(--clr-darkgreen);
     color: white;
 }
   
-.actions .submit:hover,
-.actions .submit:active,
-.actions .submit:focus {
+.checkoutButtons .submit:hover,
+.checkoutButtons .submit:active,
+.checkoutButtons .submit:focus {
     background-color: var(--clr-lightgreen);
 }
   

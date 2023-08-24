@@ -2,7 +2,7 @@
 import { useContext, useState, useEffect, useRef } from 'react';
 import Modal from '../UI/Modal';
 import classes from './Cart.module.css';
-import CartContext from '../../store/CartContext';
+import {CartContext} from '../../store/CartProvid';
 import CartItem from './CartItem';
 import Checkout from './Checkout';
 
@@ -36,7 +36,7 @@ const Cart = (props) => {
   useEffect(() => {
     const handleKeyDown = (event) => {
       if (event.key === 'Escape') {
-        props.onClose();
+        props.onCloseCart();
       }
     };
   
@@ -90,19 +90,16 @@ const Cart = (props) => {
     </ul>
   );
 
+  // modal actions
   const modalActions = (
-    <div className={classes.actions}>
-      <button ref={closeCartButtonRef} className={classes['button--alt']} onClick={props.onClose}>
-        CLOSE
-      </button>
-      {hasItems && (
-        <button className={classes.button} onClick={orderHandler}>
-          ORDER
-        </button>
-      )}
+    <div className={classes.buttons}>
+      <button ref={closeCartButtonRef} className={classes.button} onClick={props.onCloseCart}>CLOSE</button>
+
+      {hasItems && (<button className={classes.button} onClick={orderHandler}>ORDER</button>)}
     </div>
   );
-
+  
+  // modal content 1
   const cartModalContent = (
     <>
       {cartItems}
@@ -111,28 +108,29 @@ const Cart = (props) => {
         <span>{totalAmount}</span>
       </div>
       {isCheckout && (
-        <Checkout onConfirm={submitOrderHandler} onCancel={props.onClose} />
+        <Checkout onConfirm={submitOrderHandler} onCloseCart={props.onCloseCart} />
       )}
       {!isCheckout && modalActions}
     </>
   );
 
+  // modal content 2
   const isSubmittingModalContent = <p>One moment! We are saving your order ...</p>;
 
+  // modal content 3
   const didSubmitModalContent = (
     <>
       <p className={classes.success}>Your order was successfully saved! We will call you to confirm delivery within 30 minutes. Thank you for reading with us!</p>
-      <div className={classes.actions}>
-      <button className={classes.button} onClick={props.onClose}>
-        Close
+      <div className={classes.buttons}>
+      <button className={classes.button} onClick={props.onCloseCart}>
+        CLOSE
       </button>
     </div>
     </>
   );
 
-
   return (
-    <Modal onClose={props.onClose}>
+    <Modal onClose={props.onCloseCart}>
       {!isSubmitting && !didSubmit && cartModalContent}
       {isSubmitting && isSubmittingModalContent}
       {!isSubmitting && didSubmit && didSubmitModalContent}

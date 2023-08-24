@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-undef */
 
+import { Fragment } from 'react';
 import HeaderCartButton from './HeaderCartButton';
 import headerImage from '../../assets/frontstore.jpg';
 import bikeImage from '../../assets/booksonbike.jpg'
@@ -8,23 +9,28 @@ import classes from './Header.module.css';
 
 const Header = (props) => {
   return (
-    <>
+    <Fragment>
       <header className={classes.header}>
       <a className={classes['skip-to-content']} href="#main">Skip to content</a>
-        <div className={classes['topper']}>
+        <div className={classes.topper}>
           <div>
-            <p className={classes['topper--slogan']}>For the love of books.</p>
+            <p className={classes.topper__slogan}>For the love of books.</p>
           </div>
-          <div className={classes['topper--cart']}>
-            <HeaderCartButton onClick={props.onShowCart}/>
+          <div className={classes.topper__cart}>
+            <HeaderCartButton onShowCart={props.onShowCart}/>
           </div>
           
         </div>
         
         <div className={classes.navbar}>
-          <ul className={classes['nav-links']}>
-            <li><h1>TWAIN & COMPANY</h1></li>
-            {/* add links for Adult, Children, Teen, Summer Reads */}
+          <ul className={classes.navbar__list}>
+            <li><h1>TWAIN AND COMPANY</h1></li>
+            {/* <li>Summer Reads</li>
+            <li>Best Sellers</li> 
+            
+            <li>Children</li>
+            <li>Tean Novels</li> */}
+            
           </ul>
         </div>
       </header>
@@ -67,7 +73,7 @@ const Header = (props) => {
            
       </section>
         
-    </>
+    </Fragment>
   );
 };
 

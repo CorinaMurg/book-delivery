@@ -4,7 +4,7 @@ import Footer from './components/Layout/Footer';
 
 import Books from './components/Books/Books';
 import Cart from './components/Cart/Cart';
-import CartProvider from './store/CartProvider';
+import CartProvider from './store/CartProvid';
 
 
 function App() {
@@ -20,7 +20,8 @@ function App() {
 
   return (
     <CartProvider> 
-      {cartIsShown && <Cart onClose={hideCartHandler} />}
+      {cartIsShown && <Cart onCloseCart={hideCartHandler} />}
+      {/*point at the function, don't execute, so it can be accessed from inside Header*/}
       <Header onShowCart={showCartHandler} />
       <main id="main">
         <div className="books">

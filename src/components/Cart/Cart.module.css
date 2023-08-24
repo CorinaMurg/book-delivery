@@ -30,13 +30,13 @@
     }
 }
 
-.actions {
+.buttons {
     display: flex;
     justify-content: space-evenly;
     text-align: right;
 }
 
-.actions button {
+.buttons button {
     font: inherit;
     cursor: pointer;
     background-color: var(--clr-darkgreen);
@@ -46,19 +46,15 @@
     margin-left: 1rem;
 }
 
-.actions button:hover,
-.actions button:active,
-.actions button:focus {
+.buttons button:hover,
+.buttons button:active,
+.buttons button:focus {
     background-color: var(--clr-lightgreen);
     border-color: var(--clr-lightgreen);
     color: white;
 }
 
-.actions .button--alt {
-    color: white;
-}
-
-.actions .button {
+.buttons .button {
     background-color: var(--clr-darkgreen);
     color: white;
 }

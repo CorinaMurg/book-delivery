@@ -90,11 +90,13 @@ const Cart = (props) => {
     </ul>
   );
 
+  
   const modalActions = (
     <div className={classes.actions}>
-      <button ref={closeCartButtonRef} className={classes['button--alt']} onClick={props.onClose}>
+      <button ref={closeCartButtonRef} className={classes['button--alt']}  onClick={props.onClose} style={{ cursor: 'not-allowed' }}>CLOSE</button>
+      {/* <button ref={closeCartButtonRef} className={classes['button--alt']} onClick={props.onClose}>
         CLOSE
-      </button>
+      </button> */}
       {hasItems && (
         <button className={classes.button} onClick={orderHandler}>
           ORDER

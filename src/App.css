@@ -4,9 +4,11 @@
 
 :root {
   --clr-lightgray: #f0f0ea;
-  --clr-yellow: #eab92d;
+  /* --clr-yellow: #eab92d; */
+  --clr-yellow: #feb300;
   --clr-lightgreen: #17805f;
   --clr-darkgreen: #224c4b;
+  /* --clr-darkgreen: #3dbeff; */
 }
 
 body {

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useContext } from 'react';
-import BookItemButton from './BookButton';
+import BookButton from './BookButton';
 import classes from './Book.module.css';
 import {CartContext} from '../../../store/CartProvider';
 
@@ -32,7 +32,7 @@ const Book = (props) => {
         <div className={classes.book__price}>{price}</div>
       </div>
       <div>
-        <BookItemButton id={props.id} onAddToCart={addToCartHandler} />
+        <BookButton id={props.id} onAddToCart={addToCartHandler} />
       </div>
     </li>
   );

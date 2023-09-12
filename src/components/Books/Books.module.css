@@ -25,7 +25,6 @@
 @media (min-width: 1000px) {
   .booksList {
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
   }
 }
 

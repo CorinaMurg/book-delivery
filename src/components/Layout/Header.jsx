@@ -2,7 +2,7 @@
 /* eslint-disable no-undef */
 
 import HeaderCartButton from './HeaderCartButton';
-import headerImage from '../../assets/frontstore.jpg';
+import headerImage from '../../assets/frontstoreAtNight3.jpg';
 import bikeImage from '../../assets/booksonbike.jpg'
 import classes from './Header.module.css';
 

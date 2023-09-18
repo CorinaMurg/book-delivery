@@ -98,7 +98,7 @@ const Cart = (props) => {
   // modal actions
   const modalActions = (
     <div className={classes.buttons}>
-      <button ref={closeCartButtonRef} className={classes.button} onClick={props.onCloseCart} style={{ cursor: 'not-allowed' }}>CLOSE</button>
+      <button ref={closeCartButtonRef} className={classes.button} onClick={props.onCloseCart}>CLOSE</button>
 
 
       {hasItems && (<button className={classes.button} onClick={orderHandler}>ORDER</button>)}

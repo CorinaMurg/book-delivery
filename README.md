@@ -2,12 +2,13 @@
 <br>For the love of books. 📚
 <br>30 Samuel Road, Clemens Town 😉
 
-Live: [TWAIN & COMPANY](https://twain-and-company.netlify.app/)
-
-This is the first comprehensive React site that I designed and developed after completing Scrimba's Advanced React course and Packt's React the Complete Guide.
+<br>
+Live site: [TWAIN & COMPANY](https://twain-and-company.netlify.app/)
+<br>
+<br>This is the first comprehensive React site that I designed and developed after completing Scrimba's Advanced React course and Packt's React the Complete Guide.
 
 ## The Goals: 
-1. learn how to emply `useReducer` to add a shopping cart feature
+1. learn how to employ `useReducer` to add a shopping cart feature
 2. make the shopping cart fully accessible
 
 ## The How
@@ -22,7 +23,7 @@ This is the first comprehensive React site that I designed and developed after c
 
 5. **Responsive Design**: I used Grid layout to create a responsive design.
 
-6. **CSS Modules**: I like to use local scoping for CSS styles to ensure that styles do not interfere with other components. This way the code is also more maintainable and organized. 
+6. **CSS Modules**: I used local scoping for CSS styles to ensure that styles do not interfere with other components. This way the code is also more maintainable and organized. 
 
 7. **BEM Naming Convention**: With my latest projects, I've been converting to the BEM naming convention for CSS classes because it promotes better readability and maintainability of the code.
 
@@ -42,7 +43,7 @@ This is the first comprehensive React site that I designed and developed after c
 The feature I struggled the most with was bringing focus to the cart. I was successful after a few tries with the `useRef` hook.
 
 
-**Nice-to-have features that I plan to add:**
+## Nice-to-have features that I plan to add
 - Search bar
 - Filter book by content, genre, author, season, poetry, audio
 - Extend book database to 100
@@ -54,7 +55,7 @@ links to similar books/other books by same author)
 - Sign up/Login features/User account with contact info, lists, past orders
 <br>
 
-<br>**Screenshot of front page**
+## Screenshot of front page
 <br>
 <br>
 ![Screenshot of Twain and Company complete front page](https://github.com/CorinaMurg/twain-and-company/assets/115652409/c31094f6-b4b0-4c83-b0a6-fb5970ee3763)
